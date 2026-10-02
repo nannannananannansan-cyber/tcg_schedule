@@ -8,7 +8,7 @@ DATA_DIR = Path("data")
 POKEMON_FILE = DATA_DIR / "pokemon.json"
 LORCANA_FILE = DATA_DIR / "lorcana.json"
 
-OUTPUT_FILE = Path("public/data/events.json")
+OUTPUT_FILE = Path("docs/data/events.json")
 
 
 def load_events(path):
