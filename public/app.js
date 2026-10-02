@@ -6,7 +6,7 @@ let keyword = "";
 
 
 async function loadEvents() {
-  const response = await fetch("../data/events.json");
+  const response = await fetch("data/events.json");
 
   if (!response.ok) {
     throw new Error("大会データを取得できませんでした");
