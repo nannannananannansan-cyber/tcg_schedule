@@ -43,33 +43,84 @@
 
       <div class="filter-panel">
 
-        <div
-          class="filters"
-          id="game-filters"
-        >
+        <div class="filter-section">
 
-          <button
-            class="filter active"
-            data-game="all"
-          >
-            すべて
-          </button>
+          <div class="filter-label">
+            ゲーム
+          </div>
 
-          <button
-            class="filter pokemon-filter"
-            data-game="pokemon"
+          <div
+            class="filters"
+            id="game-filters"
           >
-            <span class="filter-dot"></span>
-            ポケモン
-          </button>
 
-          <button
-            class="filter lorcana-filter"
-            data-game="lorcana"
+            <button
+              class="filter active"
+              data-game="all"
+              type="button"
+            >
+              すべて
+            </button>
+
+            <button
+              class="filter pokemon-filter"
+              data-game="pokemon"
+              type="button"
+            >
+              <span class="filter-dot"></span>
+              ポケモン
+            </button>
+
+            <button
+              class="filter lorcana-filter"
+              data-game="lorcana"
+              type="button"
+            >
+              <span class="filter-dot"></span>
+              ロルカナ
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="filter-section">
+
+          <div class="filter-label">
+            情報ソース
+          </div>
+
+          <div
+            class="filters source-filters"
+            id="source-filters"
           >
-            <span class="filter-dot"></span>
-            ロルカナ
-          </button>
+
+            <button
+              class="filter active"
+              data-source="all"
+              type="button"
+            >
+              すべて
+            </button>
+
+            <button
+              class="filter"
+              data-source="official"
+              type="button"
+            >
+              公式
+            </button>
+
+            <button
+              class="filter tonamel-filter"
+              data-source="tonamel"
+              type="button"
+            >
+              Tonamel
+            </button>
+
+          </div>
 
         </div>
 
@@ -153,7 +204,7 @@
               class="input-icon"
               aria-hidden="true"
             >
-              ⌕
+              🔍
             </span>
 
             <input

@@ -7,6 +7,7 @@ DATA_DIR = Path("data")
 
 POKEMON_FILE = DATA_DIR / "pokemon.json"
 LORCANA_FILE = DATA_DIR / "lorcana.json"
+TONAMEL_POKEMON_FILE = DATA_DIR / "tonamel_pokemon.json"
 
 OUTPUT_FILE = Path("docs/data/events.json")
 
@@ -21,6 +22,18 @@ def load_events(path):
     return data["events"]
 
 
+def add_source(events, source):
+    """
+    sourceが未設定のイベントに情報ソースを設定する。
+    """
+
+    for event in events:
+        if not event.get("source"):
+            event["source"] = source
+
+    return events
+
+
 def main():
     pokemon_events = load_events(
         POKEMON_FILE
@@ -30,21 +43,51 @@ def main():
         LORCANA_FILE
     )
 
+    tonamel_pokemon_events = load_events(
+        TONAMEL_POKEMON_FILE
+    )
+
+
+    # 公式サイト由来
+    pokemon_events = add_source(
+        pokemon_events,
+        "official",
+    )
+
+    lorcana_events = add_source(
+        lorcana_events,
+        "official",
+    )
+
+    # Tonamel側はtonamel.pyですでに
+    # source=tonamel が設定されているが、
+    # 念のため未設定の場合にも補完する
+    tonamel_pokemon_events = add_source(
+        tonamel_pokemon_events,
+        "tonamel",
+    )
+
 
     print(
-        f"ポケモン: "
+        f"ポケモン公式: "
         f"{len(pokemon_events)}件"
     )
 
     print(
-        f"ロルカナ: "
+        f"ロルカナ公式: "
         f"{len(lorcana_events)}件"
+    )
+
+    print(
+        f"ポケモン Tonamel: "
+        f"{len(tonamel_pokemon_events)}件"
     )
 
 
     events = (
-        pokemon_events +
-        lorcana_events
+        pokemon_events
+        + lorcana_events
+        + tonamel_pokemon_events
     )
 
 
@@ -52,6 +95,7 @@ def main():
         key=lambda event: (
             event["date"],
             event["start_time"] or "",
+            event.get("event_name", ""),
         )
     )
 

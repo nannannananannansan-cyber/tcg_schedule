@@ -1,6 +1,7 @@
 let allEvents = [];
 
 let selectedGame = "all";
+let selectedSource = "all";
 let selectedArea = "all";
 let keyword = "";
 
@@ -66,6 +67,13 @@ function getFilteredEvents() {
       selectedGame === "all" ||
       event.game === selectedGame;
 
+    const eventSource =
+      event.source || "official";
+
+    const sourceMatched =
+      selectedSource === "all" ||
+      eventSource === selectedSource;
+
     const areaMatched =
       selectedArea === "all" ||
       getArea(event.address) ===
@@ -77,6 +85,7 @@ function getFilteredEvents() {
     return (
       futureMatched &&
       gameMatched &&
+      sourceMatched &&
       areaMatched &&
       keywordMatched
     );
@@ -388,6 +397,9 @@ function renderDateNav(events) {
     button.className =
       "date-button";
 
+    button.type =
+      "button";
+
 
     if (eventCount === 0) {
       button.classList.add(
@@ -595,6 +607,15 @@ function createEventCard(event) {
       : "ロルカナ";
 
 
+  const eventSource =
+    event.source || "official";
+
+  const sourceName =
+    eventSource === "tonamel"
+      ? "Tonamel"
+      : "公式";
+
+
   const meta = [];
 
 
@@ -610,6 +631,16 @@ function createEventCard(event) {
   if (event.capacity) {
     meta.push(
       `定員 ${event.capacity}名`
+    );
+  }
+
+
+  if (
+    eventSource === "tonamel" &&
+    event.entrant_count != null
+  ) {
+    meta.push(
+      `申込 ${event.entrant_count}名`
     );
   }
 
@@ -645,14 +676,21 @@ function createEventCard(event) {
     event.source_url
       ? `
         <a
-          class="source-link"
+          class="
+            source-link
+            source-${eventSource}
+          "
           href="${escapeHtml(
             event.source_url
           )}"
           target="_blank"
           rel="noopener noreferrer"
         >
-          公式で見る ↗
+          ${
+            eventSource === "tonamel"
+              ? "Tonamelで見る ↗"
+              : "公式で見る ↗"
+          }
         </a>
       `
       : "";
@@ -669,13 +707,26 @@ function createEventCard(event) {
 
       <div class="event-top">
 
-        <div
-          class="
-            game-badge
-            game-${event.game}
-          "
-        >
-          ${gameName}
+        <div class="badge-row">
+
+          <div
+            class="
+              game-badge
+              game-${event.game}
+            "
+          >
+            ${gameName}
+          </div>
+
+          <div
+            class="
+              source-badge
+              source-badge-${eventSource}
+            "
+          >
+            ${sourceName}
+          </div>
+
         </div>
 
         ${sourceLink}
@@ -966,9 +1017,9 @@ document
           .querySelectorAll(
             "#game-filters .filter"
           )
-          .forEach(button => {
+          .forEach(item => {
 
-            button.classList.remove(
+            item.classList.remove(
               "active"
             );
 
@@ -982,6 +1033,50 @@ document
 
         selectedGame =
           button.dataset.game;
+
+        datePage = 0;
+
+        render();
+      }
+    );
+
+  });
+
+
+/* --------------------
+   Source filter
+-------------------- */
+
+document
+  .querySelectorAll(
+    "#source-filters .filter"
+  )
+  .forEach(button => {
+
+    button.addEventListener(
+      "click",
+      () => {
+
+        document
+          .querySelectorAll(
+            "#source-filters .filter"
+          )
+          .forEach(item => {
+
+            item.classList.remove(
+              "active"
+            );
+
+          });
+
+
+        button.classList.add(
+          "active"
+        );
+
+
+        selectedSource =
+          button.dataset.source;
 
         datePage = 0;
 

@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
+    # 毎日 05:00 JST
     - cron: "0 20 * * *"
 
 permissions:
@@ -25,13 +26,19 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 tzdata
 
+      # Pokemon公式はGitHub Actionsから403になるため、
+      # 現在はローカル更新のみ
+      #
       # - name: Fetch Pokemon events
       #   run: python pokemon.py
 
       - name: Fetch Lorcana events
         run: python lorcana.py
+
+      - name: Fetch Tonamel Pokemon events
+        run: python tonamel.py
 
       - name: Build events.json
         run: python build.py
@@ -40,6 +47,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/
+          git add docs/data/events.json
+
           git diff --cached --quiet || git commit -m "Update event data"
           git push

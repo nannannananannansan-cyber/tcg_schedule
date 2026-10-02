@@ -47,8 +47,7 @@ body {
 
   color: var(--text);
 
-  -webkit-font-smoothing:
-    antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 button,
@@ -58,14 +57,12 @@ select {
 }
 
 .container {
-  width:
-    min(
-      100% - 36px,
-      1040px
-    );
+  width: min(
+    100% - 36px,
+    1040px
+  );
 
-  margin:
-    0 auto;
+  margin: 0 auto;
 }
 
 
@@ -94,8 +91,7 @@ select {
   width: 38px;
   height: 34px;
 
-  flex:
-    0 0 38px;
+  flex: 0 0 38px;
 }
 
 .brand-mark span {
@@ -154,16 +150,14 @@ select {
 
   line-height: 1.1;
 
-  letter-spacing:
-    -0.035em;
+  letter-spacing: -0.035em;
 }
 
 .header p {
   margin:
     4px 0 0;
 
-  color:
-    var(--muted);
+  color: var(--muted);
 
   font-size: 12px;
 }
@@ -190,11 +184,9 @@ select {
       0.9
     );
 
-  backdrop-filter:
-    blur(16px);
+  backdrop-filter: blur(16px);
 
-  -webkit-backdrop-filter:
-    blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .filter-panel {
@@ -231,8 +223,26 @@ select {
 
 
 /* --------------------
-   Game filters
+   Filters
 -------------------- */
+
+.filter-section {
+  margin-bottom: 8px;
+}
+
+.filter-label {
+  margin:
+    0
+    2px
+    5px;
+
+  color: var(--muted);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+}
 
 .filters {
   display: flex;
@@ -240,8 +250,6 @@ select {
   gap: 7px;
 
   overflow-x: auto;
-
-  margin-bottom: 8px;
 
   scrollbar-width: none;
 }
@@ -258,8 +266,7 @@ select {
 
   gap: 6px;
 
-  flex:
-    1 0 auto;
+  flex: 1 0 auto;
 
   min-height: 32px;
 
@@ -271,8 +278,7 @@ select {
 
   border-radius: 9px;
 
-  background:
-    var(--surface-soft);
+  background: var(--surface-soft);
 
   color: #596273;
 
@@ -288,13 +294,11 @@ select {
 }
 
 .filter:hover {
-  transform:
-    translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .filter.active {
-  background:
-    var(--blue);
+  background: var(--blue);
 
   color: #ffffff;
 
@@ -314,24 +318,25 @@ select {
 
   border-radius: 50%;
 
-  background:
-    currentColor;
+  background: currentColor;
 }
 
 .pokemon-filter:not(.active) {
-  color:
-    var(--pokemon);
+  color: var(--pokemon);
 
-  background:
-    var(--pokemon-soft);
+  background: var(--pokemon-soft);
 }
 
 .lorcana-filter:not(.active) {
-  color:
-    var(--lorcana);
+  color: var(--lorcana);
 
-  background:
-    var(--lorcana-soft);
+  background: var(--lorcana-soft);
+}
+
+.tonamel-filter:not(.active) {
+  color: #475467;
+
+  background: #eef2f6;
 }
 
 
@@ -367,8 +372,7 @@ select {
 
   border-radius: 9px;
 
-  background:
-    #ffffff;
+  background: #ffffff;
 
   transition:
     border-color 0.15s ease,
@@ -376,8 +380,7 @@ select {
 }
 
 .input-shell:focus-within {
-  border-color:
-    #a9cfff;
+  border-color: #a9cfff;
 
   box-shadow:
     0 0 0 3px
@@ -408,8 +411,7 @@ select {
   border: 0;
   outline: 0;
 
-  background:
-    transparent;
+  background: transparent;
 
   color: #283244;
 
@@ -493,17 +495,13 @@ select {
 }
 
 .date-arrow:hover:not(:disabled) {
-  border-color:
-    #b8d5ff;
+  border-color: #b8d5ff;
 
-  background:
-    var(--blue-soft);
+  background: var(--blue-soft);
 
-  color:
-    var(--blue);
+  color: var(--blue);
 
-  transform:
-    translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .date-arrow:disabled {
@@ -547,16 +545,13 @@ select {
 }
 
 .date-button:hover {
-  border-color:
-    #b8d5ff;
+  border-color: #b8d5ff;
 
-  background:
-    var(--blue-soft);
+  background: var(--blue-soft);
 
   color: #075fda;
 
-  transform:
-    translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .date-button.no-events {
@@ -566,8 +561,7 @@ select {
 }
 
 .date-button.no-events:hover {
-  border-color:
-    var(--line);
+  border-color: var(--line);
 
   background:
     rgba(
@@ -599,8 +593,7 @@ select {
   font-size: 12px;
   font-weight: 800;
 
-  font-variant-numeric:
-    tabular-nums;
+  font-variant-numeric: tabular-nums;
 }
 
 
@@ -630,7 +623,7 @@ select {
 -------------------- */
 
 .date-group {
-  scroll-margin-top: 190px;
+  scroll-margin-top: 230px;
 
   margin-bottom: 27px;
 }
@@ -656,8 +649,7 @@ select {
   font-size: 18px;
   font-weight: 800;
 
-  letter-spacing:
-    -0.025em;
+  letter-spacing: -0.025em;
 }
 
 .date-title-count {
@@ -740,27 +732,23 @@ select {
     0
     12px;
 
-  background:
-    #c9d0da;
+  background: #c9d0da;
 }
 
 .event-card:has(
   .game-pokemon
 )::before {
-  background:
-    var(--pokemon);
+  background: var(--pokemon);
 }
 
 .event-card:has(
   .game-lorcana
 )::before {
-  background:
-    var(--lorcana);
+  background: var(--lorcana);
 }
 
 .event-card:hover {
-  transform:
-    translateY(-1px);
+  transform: translateY(-1px);
 
   box-shadow:
     0 7px 20px
@@ -783,11 +771,9 @@ select {
   font-size: 17px;
   font-weight: 850;
 
-  letter-spacing:
-    -0.025em;
+  letter-spacing: -0.025em;
 
-  font-variant-numeric:
-    tabular-nums;
+  font-variant-numeric: tabular-nums;
 }
 
 
@@ -810,6 +796,18 @@ select {
   margin-bottom: 3px;
 }
 
+.badge-row {
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 4px;
+
+  min-width: 0;
+}
+
 .game-badge {
   display: inline-flex;
 
@@ -830,15 +828,40 @@ select {
 .game-pokemon {
   color: #d92d43;
 
-  background:
-    var(--pokemon-soft);
+  background: var(--pokemon-soft);
 }
 
 .game-lorcana {
   color: #7631d7;
 
-  background:
-    var(--lorcana-soft);
+  background: var(--lorcana-soft);
+}
+
+.source-badge {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding:
+    3px
+    7px;
+
+  border-radius: 999px;
+
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.source-badge-official {
+  color: #667085;
+
+  background: #f2f4f7;
+}
+
+.source-badge-tonamel {
+  color: #475467;
+
+  background: #e9eef5;
 }
 
 .shop-name {
@@ -851,11 +874,9 @@ select {
   font-size: 11px;
   font-weight: 600;
 
-  text-overflow:
-    ellipsis;
+  text-overflow: ellipsis;
 
-  white-space:
-    nowrap;
+  white-space: nowrap;
 }
 
 .event-name {
@@ -893,8 +914,7 @@ select {
 
   border-radius: 6px;
 
-  background:
-    #f2f5f8;
+  background: #f2f5f8;
 
   line-height: 1.2;
 }
@@ -903,15 +923,14 @@ select {
 .full {
   color: #c92336;
 
-  background:
-    #fff0f2;
+  background: #fff0f2;
 
   font-weight: 800;
 }
 
 
 /* --------------------
-   Official link
+   Source link
 -------------------- */
 
 .source-link {
@@ -930,8 +949,7 @@ select {
 
   border-radius: 7px;
 
-  background:
-    #f5f7fa;
+  background: #f5f7fa;
 
   color: #657087;
 
@@ -942,11 +960,21 @@ select {
 }
 
 .source-link:hover {
-  background:
-    var(--blue-soft);
+  background: var(--blue-soft);
 
-  color:
-    var(--blue);
+  color: var(--blue);
+}
+
+.source-link.source-tonamel {
+  background: #eef2f6;
+
+  color: #475467;
+}
+
+.source-link.source-tonamel:hover {
+  background: #e3e9f1;
+
+  color: #1d2939;
 }
 
 
@@ -1038,6 +1066,16 @@ select {
     border-radius: 14px;
   }
 
+  .filter-section {
+    margin-bottom: 7px;
+  }
+
+  .filter-label {
+    margin-bottom: 4px;
+
+    font-size: 9px;
+  }
+
   .filter {
     min-height: 33px;
 
@@ -1049,8 +1087,7 @@ select {
   }
 
   .search-grid {
-    grid-template-columns:
-      1fr;
+    grid-template-columns: 1fr;
 
     gap: 6px;
   }
@@ -1105,7 +1142,7 @@ select {
   /* Events */
 
   .date-group {
-    scroll-margin-top: 265px;
+    scroll-margin-top: 300px;
 
     margin-bottom: 26px;
   }
@@ -1143,13 +1180,17 @@ select {
   }
 
   .source-link {
-    max-width: 78px;
+    max-width: 92px;
 
     padding:
       4px
       6px;
 
     font-size: 9px;
+  }
+
+  .source-badge {
+    font-size: 8px;
   }
 }
 
@@ -1173,7 +1214,6 @@ select {
   }
 
   .filter {
-    padding-inline:
-      11px;
+    padding-inline: 11px;
   }
 }
