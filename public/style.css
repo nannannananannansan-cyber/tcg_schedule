@@ -1,0 +1,463 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans JP",
+    sans-serif;
+
+  background: #f6f7f9;
+  color: #202124;
+}
+
+.container {
+  width: min(100% - 32px, 820px);
+  margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 22px 0 18px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+
+.header p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+
+/* Controls */
+
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: rgba(246, 247, 249, 0.96);
+  border-bottom: 1px solid #e5e7eb;
+
+  padding-top: 10px;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 8px;
+}
+
+.filter-label {
+  width: 44px;
+  flex-shrink: 0;
+
+  color: #8a8f98;
+  font-size: 11px;
+}
+
+.filters {
+  display: flex;
+  gap: 7px;
+
+  overflow-x: auto;
+
+  scrollbar-width: none;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filter {
+  flex-shrink: 0;
+
+  border: 1px solid #d9dce1;
+  background: #fff;
+
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  cursor: pointer;
+
+  color: #4b5563;
+  font-size: 12px;
+}
+
+.filter:hover {
+  background: #f3f4f6;
+}
+
+.filter.active {
+  background: #202124;
+  color: #fff;
+  border-color: #202124;
+}
+
+
+/* Area */
+
+.area-select {
+  width: 100%;
+  max-width: 260px;
+
+  padding: 7px 10px;
+
+  border: 1px solid #d9dce1;
+  border-radius: 7px;
+
+  background: #fff;
+  color: #202124;
+
+  font: inherit;
+  font-size: 12px;
+}
+
+
+/* Keyword search */
+
+.keyword-input {
+  width: 100%;
+
+  padding: 8px 11px;
+
+  border: 1px solid #d9dce1;
+  border-radius: 7px;
+
+  background: #fff;
+  color: #202124;
+
+  font: inherit;
+  font-size: 12px;
+
+  outline: none;
+}
+
+.keyword-input::placeholder {
+  color: #a0a5ad;
+}
+
+.keyword-input:focus {
+  border-color: #8a8f98;
+}
+
+
+/* Date navigation */
+
+.date-nav {
+  display: flex;
+  gap: 7px;
+
+  overflow-x: auto;
+
+  padding-top: 3px;
+  padding-bottom: 11px;
+
+  scrollbar-width: none;
+}
+
+.date-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.date-button {
+  flex: 0 0 auto;
+
+  min-width: 64px;
+
+  padding: 7px 10px;
+
+  border: 1px solid #dfe2e6;
+  border-radius: 8px;
+
+  background: #fff;
+  color: #4b5563;
+
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.date-button:hover {
+  background: #f1f3f5;
+}
+
+.date-button-label {
+  display: block;
+
+  margin-bottom: 2px;
+
+  color: #8a8f98;
+  font-size: 10px;
+}
+
+.date-button-date {
+  display: block;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+/* Summary */
+
+#summary {
+  margin: 16px 0 18px;
+
+  color: #8a8f98;
+  font-size: 12px;
+}
+
+
+/* Date */
+
+.date-group {
+  scroll-margin-top: 220px;
+  margin-bottom: 36px;
+}
+
+.date-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  margin: 0 0 10px;
+
+  padding: 0 2px 9px;
+
+  border-bottom: 2px solid #34373c;
+}
+
+.date-title-main {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.date-title-count {
+  color: #8a8f98;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+
+/* Event */
+
+.event-card {
+  display: grid;
+
+  grid-template-columns:
+    62px
+    minmax(0, 1fr);
+
+  gap: 12px;
+
+  margin-bottom: 7px;
+
+  padding: 13px 14px;
+
+  background: #fff;
+
+  border: 1px solid #e7e9ed;
+  border-radius: 9px;
+}
+
+.event-time {
+  padding-top: 2px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  font-variant-numeric: tabular-nums;
+}
+
+.event-content {
+  min-width: 0;
+}
+
+.event-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 8px;
+}
+
+
+/* Game */
+
+.game-badge {
+  display: inline-flex;
+  align-items: center;
+
+  margin-bottom: 5px;
+
+  padding: 2px 7px;
+
+  border-radius: 5px;
+
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.game-pokemon {
+  color: #b42318;
+  background: #fee4e2;
+}
+
+.game-lorcana {
+  color: #4338ca;
+  background: #e8e7ff;
+}
+
+
+/* Event information */
+
+.shop-name {
+  margin-bottom: 3px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.event-name {
+  margin-bottom: 5px;
+
+  color: #4b5563;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 4px 10px;
+
+  color: #8a8f98;
+
+  font-size: 11px;
+}
+
+.full {
+  color: #c62828;
+  font-weight: 700;
+}
+
+
+/* Official link */
+
+.source-link {
+  flex-shrink: 0;
+
+  color: #4b5563;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  padding: 4px 8px;
+
+  border: 1px solid #dfe2e6;
+  border-radius: 6px;
+
+  background: #fff;
+}
+
+.source-link:hover {
+  background: #f3f4f6;
+  color: #202124;
+}
+
+
+/* Empty */
+
+.empty {
+  padding: 50px 20px;
+
+  text-align: center;
+
+  color: #8a8f98;
+
+  font-size: 13px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .container {
+    width: min(100% - 24px, 820px);
+  }
+
+  .header {
+    padding: 16px 0 14px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .filter-row {
+    gap: 8px;
+  }
+
+  .filter-label {
+    width: 40px;
+  }
+
+  .area-select {
+    max-width: none;
+  }
+
+  .date-button {
+    min-width: 60px;
+    padding: 6px 9px;
+  }
+
+  .date-group {
+    scroll-margin-top: 215px;
+    margin-bottom: 28px;
+  }
+
+  .date-title-main {
+    font-size: 17px;
+  }
+
+  .event-card {
+    grid-template-columns:
+      52px
+      minmax(0, 1fr);
+
+    gap: 8px;
+
+    padding: 11px;
+  }
+
+  .event-time {
+    font-size: 14px;
+  }
+}
