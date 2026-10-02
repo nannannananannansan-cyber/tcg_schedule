@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "pokemon",
-  "updated_at": "2026-10-03T02:18:43.951029+09:00",
+  "updated_at": "2026-10-03T05:13:53.425791+09:00",
   "events": [
     {
       "id": "tonamel-rJDpT",
@@ -15,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前13-13　なんばKHビル",
       "capacity": 128,
-      "entrant_count": 172,
+      "entrant_count": 171,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
