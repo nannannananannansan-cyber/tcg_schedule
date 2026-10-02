@@ -3,116 +3,218 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f7fb">
+
   <title>TCG Schedule</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 </head>
 
 <body>
+
   <header class="header">
-    <div class="container">
-      <h1>TCG Schedule</h1>
-      <p>大阪のカードゲーム大会スケジュール</p>
+    <div class="container header-inner">
+
+      <div
+        class="brand-mark"
+        aria-hidden="true"
+      >
+        <span></span>
+        <span></span>
+      </div>
+
+      <div>
+        <h1>TCG Schedule</h1>
+        <p>
+          大阪のカードゲーム大会を探す
+        </p>
+      </div>
+
     </div>
   </header>
 
+
   <div class="controls">
+
     <div class="container">
 
-      <div class="filter-row">
-        <span class="filter-label">ゲーム</span>
+      <div class="filter-panel">
 
-        <div class="filters" id="game-filters">
-          <button class="filter active" data-game="all">
+        <div
+          class="filters"
+          id="game-filters"
+        >
+
+          <button
+            class="filter active"
+            data-game="all"
+          >
             すべて
           </button>
 
-          <button class="filter" data-game="pokemon">
+          <button
+            class="filter pokemon-filter"
+            data-game="pokemon"
+          >
+            <span class="filter-dot"></span>
             ポケモン
           </button>
 
-          <button class="filter" data-game="lorcana">
+          <button
+            class="filter lorcana-filter"
+            data-game="lorcana"
+          >
+            <span class="filter-dot"></span>
             ロルカナ
           </button>
+
         </div>
+
+
+        <div class="search-grid">
+
+          <label class="input-shell">
+
+            <span
+              class="input-icon"
+              aria-hidden="true"
+            >
+              ⌖
+            </span>
+
+            <select
+              id="area-filter"
+              class="area-select"
+              aria-label="エリア"
+            >
+
+              <option value="all">
+                大阪府すべて
+              </option>
+
+              <optgroup label="主要エリア">
+
+                <option value="namba">
+                  なんば・日本橋
+                </option>
+
+                <option value="shinsaibashi">
+                  心斎橋
+                </option>
+
+                <option value="umeda">
+                  梅田
+                </option>
+
+                <option value="tennoji">
+                  天王寺・阿倍野
+                </option>
+
+              </optgroup>
+
+
+              <optgroup label="その他">
+
+                <option value="osaka-city-other">
+                  大阪市その他
+                </option>
+
+                <option value="sakai">
+                  堺
+                </option>
+
+                <option value="higashiosaka-yao">
+                  東大阪・八尾
+                </option>
+
+                <option value="hokusetsu">
+                  北摂
+                </option>
+
+                <option value="osaka-other">
+                  その他大阪府
+                </option>
+
+              </optgroup>
+
+            </select>
+
+          </label>
+
+
+          <label
+            class="input-shell search-shell"
+          >
+
+            <span
+              class="input-icon"
+              aria-hidden="true"
+            >
+              ⌕
+            </span>
+
+            <input
+              id="keyword-filter"
+              class="keyword-input"
+              type="search"
+              placeholder="店舗名・大会名・住所で検索"
+              autocomplete="off"
+            >
+
+          </label>
+
+        </div>
+
       </div>
 
-      <div class="filter-row">
-        <label class="filter-label" for="area-filter">
-          エリア
-        </label>
 
-        <select id="area-filter" class="area-select">
-          <option value="all">すべて</option>
+      <div class="date-navigation">
 
-          <optgroup label="主要エリア">
-            <option value="namba">
-              なんば・日本橋
-            </option>
-
-            <option value="shinsaibashi">
-              心斎橋
-            </option>
-
-            <option value="umeda">
-              梅田
-            </option>
-
-            <option value="tennoji">
-              天王寺・阿倍野
-            </option>
-          </optgroup>
-
-          <optgroup label="その他">
-            <option value="osaka-city-other">
-              大阪市その他
-            </option>
-
-            <option value="sakai">
-              堺
-            </option>
-
-            <option value="higashiosaka-yao">
-              東大阪・八尾
-            </option>
-
-            <option value="hokusetsu">
-              北摂
-            </option>
-
-            <option value="osaka-other">
-              その他大阪府
-            </option>
-          </optgroup>
-        </select>
-      </div>
-
-      <div class="filter-row">
-        <label class="filter-label" for="keyword-filter">
-          検索
-        </label>
-
-        <input
-          id="keyword-filter"
-          class="keyword-input"
-          type="search"
-          placeholder="店舗名・大会名・住所"
-          autocomplete="off"
+        <button
+          id="date-prev"
+          class="date-arrow"
+          type="button"
+          aria-label="前の7日間"
         >
-      </div>
+          ‹
+        </button>
 
-      <div id="date-nav" class="date-nav"></div>
+        <div
+          id="date-nav"
+          class="date-nav"
+        ></div>
+
+        <button
+          id="date-next"
+          class="date-arrow"
+          type="button"
+          aria-label="次の7日間"
+        >
+          ›
+        </button>
+
+      </div>
 
     </div>
+
   </div>
 
-  <main class="container">
+
+  <main class="container main-content">
+
     <div id="summary"></div>
 
     <div id="events">
       読み込み中...
     </div>
+
   </main>
 
+
   <script src="app.js"></script>
+
 </body>
 </html>

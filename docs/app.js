@@ -4,24 +4,42 @@ let selectedGame = "all";
 let selectedArea = "all";
 let keyword = "";
 
+let datePage = 0;
+
+const DAYS_PER_PAGE = 7;
+
+
+/* --------------------
+   Load
+-------------------- */
 
 async function loadEvents() {
-  const response = await fetch("data/events.json");
+  const response =
+    await fetch("data/events.json");
 
   if (!response.ok) {
-    throw new Error("大会データを取得できませんでした");
+    throw new Error(
+      "大会データを取得できませんでした"
+    );
   }
 
-  const data = await response.json();
+  const data =
+    await response.json();
 
-  allEvents = data.events;
+  allEvents =
+    data.events;
 
   render();
 }
 
 
+/* --------------------
+   Render
+-------------------- */
+
 function render() {
-  const events = getFilteredEvents();
+  const events =
+    getFilteredEvents();
 
   renderDateNav(events);
   renderEvents(events);
@@ -33,23 +51,31 @@ function render() {
 -------------------- */
 
 function getFilteredEvents() {
+  const today =
+    getToday();
+
   return allEvents.filter(event => {
+
+    const eventDate =
+      createLocalDate(event.date);
+
+    const futureMatched =
+      eventDate >= today;
 
     const gameMatched =
       selectedGame === "all" ||
       event.game === selectedGame;
 
-
     const areaMatched =
       selectedArea === "all" ||
-      getArea(event.address) === selectedArea;
-
+      getArea(event.address) ===
+        selectedArea;
 
     const keywordMatched =
       matchesKeyword(event);
 
-
     return (
+      futureMatched &&
       gameMatched &&
       areaMatched &&
       keywordMatched
@@ -72,7 +98,9 @@ function matchesKeyword(event) {
     .join(" ")
     .toLowerCase();
 
-  return searchTarget.includes(keyword);
+  return searchTarget.includes(
+    keyword
+  );
 }
 
 
@@ -85,82 +113,122 @@ function getArea(address) {
     return "osaka-other";
   }
 
-  const normalizedAddress = address
-    .replace(/\s/g, "")
-    .replace(/　/g, "");
-
+  const normalizedAddress =
+    address
+      .replace(/\s/g, "")
+      .replace(/　/g, "");
 
   if (
-    normalizedAddress.includes("浪速区日本橋") ||
-    normalizedAddress.includes("浪速区難波") ||
-    normalizedAddress.includes("中央区難波") ||
-    normalizedAddress.includes("中央区難波千日前")
+    normalizedAddress.includes(
+      "浪速区日本橋"
+    ) ||
+    normalizedAddress.includes(
+      "浪速区難波"
+    ) ||
+    normalizedAddress.includes(
+      "中央区難波"
+    ) ||
+    normalizedAddress.includes(
+      "中央区難波千日前"
+    )
   ) {
     return "namba";
   }
 
-
   if (
-    normalizedAddress.includes("西心斎橋") ||
-    normalizedAddress.includes("東心斎橋") ||
-    normalizedAddress.includes("心斎橋筋")
+    normalizedAddress.includes(
+      "西心斎橋"
+    ) ||
+    normalizedAddress.includes(
+      "東心斎橋"
+    ) ||
+    normalizedAddress.includes(
+      "心斎橋筋"
+    )
   ) {
     return "shinsaibashi";
   }
 
-
   if (
-    normalizedAddress.includes("北区梅田") ||
-    normalizedAddress.includes("北区芝田") ||
-    normalizedAddress.includes("北区茶屋町") ||
-    normalizedAddress.includes("北区曽根崎")
+    normalizedAddress.includes(
+      "北区梅田"
+    ) ||
+    normalizedAddress.includes(
+      "北区芝田"
+    ) ||
+    normalizedAddress.includes(
+      "北区茶屋町"
+    ) ||
+    normalizedAddress.includes(
+      "北区曽根崎"
+    )
   ) {
     return "umeda";
   }
 
-
   if (
-    normalizedAddress.includes("阿倍野区") ||
-    normalizedAddress.includes("天王寺区")
+    normalizedAddress.includes(
+      "阿倍野区"
+    ) ||
+    normalizedAddress.includes(
+      "天王寺区"
+    )
   ) {
     return "tennoji";
   }
 
-
   if (
-    normalizedAddress.includes("堺市")
+    normalizedAddress.includes(
+      "堺市"
+    )
   ) {
     return "sakai";
   }
 
-
   if (
-    normalizedAddress.includes("東大阪市") ||
-    normalizedAddress.includes("八尾市")
+    normalizedAddress.includes(
+      "東大阪市"
+    ) ||
+    normalizedAddress.includes(
+      "八尾市"
+    )
   ) {
     return "higashiosaka-yao";
   }
 
-
   if (
-    normalizedAddress.includes("豊中市") ||
-    normalizedAddress.includes("吹田市") ||
-    normalizedAddress.includes("高槻市") ||
-    normalizedAddress.includes("茨木市") ||
-    normalizedAddress.includes("箕面市") ||
-    normalizedAddress.includes("池田市") ||
-    normalizedAddress.includes("摂津市")
+    normalizedAddress.includes(
+      "豊中市"
+    ) ||
+    normalizedAddress.includes(
+      "吹田市"
+    ) ||
+    normalizedAddress.includes(
+      "高槻市"
+    ) ||
+    normalizedAddress.includes(
+      "茨木市"
+    ) ||
+    normalizedAddress.includes(
+      "箕面市"
+    ) ||
+    normalizedAddress.includes(
+      "池田市"
+    ) ||
+    normalizedAddress.includes(
+      "摂津市"
+    )
   ) {
     return "hokusetsu";
   }
 
-
   if (
-    normalizedAddress.includes("大阪市")
+    normalizedAddress.includes(
+      "大阪市"
+    )
   ) {
     return "osaka-city-other";
   }
-
 
   return "osaka-other";
 }
@@ -172,18 +240,19 @@ function getArea(address) {
 
 function renderEvents(events) {
   const container =
-    document.getElementById("events");
+    document.getElementById(
+      "events"
+    );
 
   const summary =
-    document.getElementById("summary");
-
+    document.getElementById(
+      "summary"
+    );
 
   summary.textContent =
-    `${events.length}件の大会`;
-
+    `今日以降 ${events.length}件の大会`;
 
   container.innerHTML = "";
-
 
   if (events.length === 0) {
     container.innerHTML = `
@@ -195,17 +264,18 @@ function renderEvents(events) {
     return;
   }
 
-
   const grouped =
     groupByDate(events);
-
 
   for (
     const [date, dateEvents]
     of Object.entries(grouped)
   ) {
+
     const section =
-      document.createElement("section");
+      document.createElement(
+        "section"
+      );
 
     section.className =
       "date-group";
@@ -215,7 +285,9 @@ function renderEvents(events) {
 
 
     const title =
-      document.createElement("h2");
+      document.createElement(
+        "h2"
+      );
 
     title.className =
       "date-title";
@@ -230,18 +302,24 @@ function renderEvents(events) {
       </span>
     `;
 
+    section.appendChild(
+      title
+    );
 
-    section.appendChild(title);
 
-
-    for (const event of dateEvents) {
+    for (
+      const event
+      of dateEvents
+    ) {
       section.appendChild(
         createEventCard(event)
       );
     }
 
 
-    container.appendChild(section);
+    container.appendChild(
+      section
+    );
   }
 }
 
@@ -252,32 +330,83 @@ function renderEvents(events) {
 
 function renderDateNav(events) {
   const container =
-    document.getElementById("date-nav");
+    document.getElementById(
+      "date-nav"
+    );
+
+  const prevButton =
+    document.getElementById(
+      "date-prev"
+    );
+
+  const nextButton =
+    document.getElementById(
+      "date-next"
+    );
 
   container.innerHTML = "";
 
 
-  const grouped =
-    groupByDate(events);
+  const startDate =
+    getDatePageStart();
 
-  const dates =
-    Object.keys(grouped);
+  const endDate =
+    addDays(
+      startDate,
+      DAYS_PER_PAGE - 1
+    );
 
 
-  for (const date of dates) {
+  for (
+    let i = 0;
+    i < DAYS_PER_PAGE;
+    i++
+  ) {
+
+    const date =
+      addDays(
+        startDate,
+        i
+      );
+
+    const dateString =
+      formatDateKey(date);
+
+    const eventCount =
+      events.filter(
+        event =>
+          event.date ===
+          dateString
+      ).length;
+
+
     const button =
-      document.createElement("button");
+      document.createElement(
+        "button"
+      );
 
     button.className =
       "date-button";
 
+
+    if (eventCount === 0) {
+      button.classList.add(
+        "no-events"
+      );
+    }
+
+
     button.innerHTML = `
       <span class="date-button-label">
-        ${getRelativeDateLabel(date)}
+        ${getRelativeDateLabel(
+          dateString
+        )}
       </span>
 
       <span class="date-button-date">
-        ${formatShortDate(date)}
+        ${formatShortDate(
+          dateString
+        )}
       </span>
     `;
 
@@ -285,37 +414,161 @@ function renderDateNav(events) {
     button.addEventListener(
       "click",
       () => {
-        const section =
-          document.getElementById(
-            createDateSectionId(date)
-          );
-
-        if (!section) {
-          return;
-        }
-
-        section.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
+        scrollToDate(
+          dateString,
+          eventCount
+        );
       }
     );
 
 
-    container.appendChild(button);
+    container.appendChild(
+      button
+    );
   }
+
+
+  prevButton.disabled =
+    datePage === 0;
+
+
+  const lastEventDate =
+    getLastEventDate(events);
+
+  if (!lastEventDate) {
+    nextButton.disabled =
+      true;
+
+    return;
+  }
+
+
+  nextButton.disabled =
+    endDate >= lastEventDate;
 }
 
+
+/* --------------------
+   Date page
+-------------------- */
+
+function getDatePageStart() {
+  const today =
+    getToday();
+
+  return addDays(
+    today,
+    datePage *
+      DAYS_PER_PAGE
+  );
+}
+
+
+function changeDatePage(
+  direction
+) {
+
+  const newPage =
+    datePage + direction;
+
+  if (newPage < 0) {
+    return;
+  }
+
+
+  const events =
+    getFilteredEvents();
+
+
+  if (direction > 0) {
+    const lastEventDate =
+      getLastEventDate(
+        events
+      );
+
+    if (!lastEventDate) {
+      return;
+    }
+
+
+    const newStart =
+      addDays(
+        getToday(),
+        newPage *
+          DAYS_PER_PAGE
+      );
+
+    if (
+      newStart >
+      lastEventDate
+    ) {
+      return;
+    }
+  }
+
+
+  datePage =
+    newPage;
+
+  renderDateNav(
+    events
+  );
+}
+
+
+/* --------------------
+   Scroll to date
+-------------------- */
+
+function scrollToDate(
+  dateString,
+  eventCount
+) {
+
+  if (eventCount === 0) {
+    return;
+  }
+
+
+  const section =
+    document.getElementById(
+      createDateSectionId(
+        dateString
+      )
+    );
+
+
+  if (!section) {
+    return;
+  }
+
+
+  section.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}
+
+
+/* --------------------
+   Group by date
+-------------------- */
 
 function groupByDate(events) {
   const groups = {};
 
-  for (const event of events) {
+  for (
+    const event
+    of events
+  ) {
+
     if (!groups[event.date]) {
       groups[event.date] = [];
     }
 
-    groups[event.date].push(event);
+    groups[event.date].push(
+      event
+    );
   }
 
   return groups;
@@ -328,7 +581,9 @@ function groupByDate(events) {
 
 function createEventCard(event) {
   const card =
-    document.createElement("div");
+    document.createElement(
+      "div"
+    );
 
   card.className =
     "event-card";
@@ -345,7 +600,9 @@ function createEventCard(event) {
 
   if (event.entry_fee) {
     meta.push(
-      escapeHtml(event.entry_fee)
+      escapeHtml(
+        event.entry_fee
+      )
     );
   }
 
@@ -359,21 +616,27 @@ function createEventCard(event) {
 
   if (event.regulation) {
     meta.push(
-      escapeHtml(event.regulation)
+      escapeHtml(
+        event.regulation
+      )
     );
   }
 
 
   if (event.full) {
     meta.push(
-      `<span class="full">満員</span>`
+      `<span class="full">
+        満員
+      </span>`
     );
   }
 
 
   if (event.cancelled) {
     meta.push(
-      `<span class="full">中止</span>`
+      `<span class="full">
+        中止
+      </span>`
     );
   }
 
@@ -383,7 +646,9 @@ function createEventCard(event) {
       ? `
         <a
           class="source-link"
-          href="${escapeHtml(event.source_url)}"
+          href="${escapeHtml(
+            event.source_url
+          )}"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -395,7 +660,9 @@ function createEventCard(event) {
 
   card.innerHTML = `
     <div class="event-time">
-      ${escapeHtml(event.start_time)}
+      ${escapeHtml(
+        event.start_time
+      )}
     </div>
 
     <div class="event-content">
@@ -403,7 +670,10 @@ function createEventCard(event) {
       <div class="event-top">
 
         <div
-          class="game-badge game-${event.game}"
+          class="
+            game-badge
+            game-${event.game}
+          "
         >
           ${gameName}
         </div>
@@ -413,11 +683,15 @@ function createEventCard(event) {
       </div>
 
       <div class="shop-name">
-        ${escapeHtml(event.shop_name)}
+        ${escapeHtml(
+          event.shop_name
+        )}
       </div>
 
       <div class="event-name">
-        ${escapeHtml(event.event_name)}
+        ${escapeHtml(
+          event.event_name
+        )}
       </div>
 
       <div class="event-meta">
@@ -440,12 +714,116 @@ function createEventCard(event) {
 
 
 /* --------------------
-   Date
+   Date helpers
 -------------------- */
 
-function formatDate(dateString) {
+function getToday() {
+  const today =
+    new Date();
+
+  today.setHours(
+    0,
+    0,
+    0,
+    0
+  );
+
+  return today;
+}
+
+
+function addDays(
+  date,
+  days
+) {
+
+  const result =
+    new Date(date);
+
+  result.setDate(
+    result.getDate() +
+      days
+  );
+
+  return result;
+}
+
+
+function formatDateKey(date) {
+  const year =
+    date.getFullYear();
+
+  const month =
+    String(
+      date.getMonth() + 1
+    ).padStart(
+      2,
+      "0"
+    );
+
+  const day =
+    String(
+      date.getDate()
+    ).padStart(
+      2,
+      "0"
+    );
+
+  return (
+    `${year}-${month}-${day}`
+  );
+}
+
+
+function getLastEventDate(
+  events
+) {
+
+  if (
+    events.length === 0
+  ) {
+    return null;
+  }
+
+
+  let latest =
+    createLocalDate(
+      events[0].date
+    );
+
+
+  for (
+    const event
+    of events
+  ) {
+
+    const date =
+      createLocalDate(
+        event.date
+      );
+
+    if (date > latest) {
+      latest = date;
+    }
+  }
+
+
+  return latest;
+}
+
+
+/* --------------------
+   Date formatting
+-------------------- */
+
+function formatDate(
+  dateString
+) {
+
   const date =
-    createLocalDate(dateString);
+    createLocalDate(
+      dateString
+    );
 
   return new Intl.DateTimeFormat(
     "ja-JP",
@@ -458,9 +836,14 @@ function formatDate(dateString) {
 }
 
 
-function formatShortDate(dateString) {
+function formatShortDate(
+  dateString
+) {
+
   const date =
-    createLocalDate(dateString);
+    createLocalDate(
+      dateString
+    );
 
   return new Intl.DateTimeFormat(
     "ja-JP",
@@ -472,14 +855,17 @@ function formatShortDate(dateString) {
 }
 
 
-function getRelativeDateLabel(dateString) {
+function getRelativeDateLabel(
+  dateString
+) {
+
   const target =
-    createLocalDate(dateString);
+    createLocalDate(
+      dateString
+    );
 
   const today =
-    new Date();
-
-  today.setHours(0, 0, 0, 0);
+    getToday();
 
 
   const diff =
@@ -501,6 +887,7 @@ function getRelativeDateLabel(dateString) {
     return "今日";
   }
 
+
   if (diff === 1) {
     return "明日";
   }
@@ -515,7 +902,10 @@ function getRelativeDateLabel(dateString) {
 }
 
 
-function createLocalDate(dateString) {
+function createLocalDate(
+  dateString
+) {
+
   const [
     year,
     month,
@@ -534,7 +924,9 @@ function createLocalDate(dateString) {
 }
 
 
-function createDateSectionId(date) {
+function createDateSectionId(
+  date
+) {
   return `date-${date}`;
 }
 
@@ -545,7 +937,9 @@ function createDateSectionId(date) {
 
 function escapeHtml(value) {
   const div =
-    document.createElement("div");
+    document.createElement(
+      "div"
+    );
 
   div.textContent =
     value ?? "";
@@ -573,9 +967,11 @@ document
             "#game-filters .filter"
           )
           .forEach(button => {
+
             button.classList.remove(
               "active"
             );
+
           });
 
 
@@ -587,10 +983,12 @@ document
         selectedGame =
           button.dataset.game;
 
+        datePage = 0;
 
         render();
       }
     );
+
   });
 
 
@@ -599,13 +997,17 @@ document
 -------------------- */
 
 document
-  .getElementById("area-filter")
+  .getElementById(
+    "area-filter"
+  )
   .addEventListener(
     "change",
     event => {
 
       selectedArea =
         event.target.value;
+
+      datePage = 0;
 
       render();
     }
@@ -617,7 +1019,9 @@ document
 -------------------- */
 
 document
-  .getElementById("keyword-filter")
+  .getElementById(
+    "keyword-filter"
+  )
   .addEventListener(
     "input",
     event => {
@@ -627,7 +1031,37 @@ document
           .trim()
           .toLowerCase();
 
+      datePage = 0;
+
       render();
+    }
+  );
+
+
+/* --------------------
+   Date arrows
+-------------------- */
+
+document
+  .getElementById(
+    "date-prev"
+  )
+  .addEventListener(
+    "click",
+    () => {
+      changeDatePage(-1);
+    }
+  );
+
+
+document
+  .getElementById(
+    "date-next"
+  )
+  .addEventListener(
+    "click",
+    () => {
+      changeDatePage(1);
     }
   );
 
@@ -636,11 +1070,16 @@ document
    Start
 -------------------- */
 
-loadEvents().catch(error => {
-  console.error(error);
+loadEvents()
+  .catch(error => {
 
-  document.getElementById(
-    "events"
-  ).textContent =
-    "大会データの読み込みに失敗しました。";
-});
+    console.error(error);
+
+    document
+      .getElementById(
+        "events"
+      )
+      .textContent =
+        "大会データの読み込みに失敗しました。";
+
+  });
