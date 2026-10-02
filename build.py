@@ -8,25 +8,19 @@ DATA_DIR = Path("data")
 POKEMON_FILE = DATA_DIR / "pokemon.json"
 LORCANA_FILE = DATA_DIR / "lorcana.json"
 TONAMEL_POKEMON_FILE = DATA_DIR / "tonamel_pokemon.json"
+TONAMEL_LORCANA_FILE = DATA_DIR / "tonamel_lorcana.json"
 
 OUTPUT_FILE = Path("docs/data/events.json")
 
 
 def load_events(path):
-    with path.open(
-        "r",
-        encoding="utf-8",
-    ) as f:
+    with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
     return data["events"]
 
 
 def add_source(events, source):
-    """
-    sourceが未設定のイベントに情報ソースを設定する。
-    """
-
     for event in events:
         if not event.get("source"):
             event["source"] = source
@@ -47,8 +41,10 @@ def main():
         TONAMEL_POKEMON_FILE
     )
 
+    tonamel_lorcana_events = load_events(
+        TONAMEL_LORCANA_FILE
+    )
 
-    # 公式サイト由来
     pokemon_events = add_source(
         pokemon_events,
         "official",
@@ -59,14 +55,15 @@ def main():
         "official",
     )
 
-    # Tonamel側はtonamel.pyですでに
-    # source=tonamel が設定されているが、
-    # 念のため未設定の場合にも補完する
     tonamel_pokemon_events = add_source(
         tonamel_pokemon_events,
         "tonamel",
     )
 
+    tonamel_lorcana_events = add_source(
+        tonamel_lorcana_events,
+        "tonamel",
+    )
 
     print(
         f"ポケモン公式: "
@@ -83,13 +80,17 @@ def main():
         f"{len(tonamel_pokemon_events)}件"
     )
 
+    print(
+        f"ロルカナ Tonamel: "
+        f"{len(tonamel_lorcana_events)}件"
+    )
 
     events = (
         pokemon_events
         + lorcana_events
         + tonamel_pokemon_events
+        + tonamel_lorcana_events
     )
-
 
     events.sort(
         key=lambda event: (
@@ -99,33 +100,26 @@ def main():
         )
     )
 
-
     output = {
-        "updated_at":
+        "updated_at": (
             datetime
             .now()
             .astimezone()
-            .isoformat(),
-
-        "event_count":
-            len(events),
-
-        "events":
-            events,
+            .isoformat()
+        ),
+        "event_count": len(events),
+        "events": events,
     }
-
 
     OUTPUT_FILE.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-
     with OUTPUT_FILE.open(
         "w",
         encoding="utf-8",
     ) as f:
-
         json.dump(
             output,
             f,
@@ -133,15 +127,12 @@ def main():
             indent=2,
         )
 
-
     print(
-        f"合計: "
-        f"{len(events)}件"
+        f"合計: {len(events)}件"
     )
 
     print(
-        f"保存先: "
-        f"{OUTPUT_FILE}"
+        f"保存先: {OUTPUT_FILE}"
     )
 
 

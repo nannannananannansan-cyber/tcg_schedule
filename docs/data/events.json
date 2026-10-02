@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T17:08:29.228273+00:00",
-  "event_count": 2461,
+  "updated_at": "2026-10-03T02:13:50.035932+09:00",
+  "event_count": 2463,
   "events": [
     {
       "id": "lorcana-2026-10-02-0",
@@ -971,6 +971,26 @@
       "full": false,
       "cancelled": false,
       "source": "official"
+    },
+    {
+      "id": "tonamel-jdKYA",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "ロルカナスペシャルトーナメント(ヴァインズ・アタック！ シーズン) 10/3(土)14:00~ ",
+      "date": "2026-10-03",
+      "start_time": "14:00",
+      "end_time": "",
+      "shop_name": "ｶｰﾄﾞｼｮｯﾌﾟ黄鶏屋",
+      "prefecture": "大阪府",
+      "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
+      "capacity": 24,
+      "entrant_count": 9,
+      "entry_fee": "1000円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/jdKYA"
     },
     {
       "id": "pokemon-1968087",
@@ -2414,7 +2434,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前13-13　なんばKHビル",
       "capacity": 96,
-      "entrant_count": 53,
+      "entrant_count": 54,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -6674,7 +6694,7 @@
       "prefecture": "大阪府",
       "address": "大阪市住之江区粉浜西1-4-3ｴﾊﾞｰｸﾞﾘｰﾝ住吉2F",
       "capacity": 32,
-      "entrant_count": 2,
+      "entrant_count": 3,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -12489,6 +12509,26 @@
       "cancelled": false,
       "source_url": "https://players.pokemon-card.com/event/detail/1150042/1/20953/20261010/1943049",
       "source": "official"
+    },
+    {
+      "id": "tonamel-qrJTV",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "【BOX争奪戦】ディズニーロルカナ 『ハイぺリアシティ』",
+      "date": "2026-10-10",
+      "start_time": "15:00",
+      "end_time": "",
+      "shop_name": "トレカチャンピオンなんば日本橋店",
+      "prefecture": "大阪府",
+      "address": "大阪市浪速区難波中2丁目2-15 高砂ビル4F",
+      "capacity": 16,
+      "entrant_count": 21,
+      "entry_fee": null,
+      "regulation": null,
+      "distance": null,
+      "full": true,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/qrJTV"
     },
     {
       "id": "tonamel-BZYQn",

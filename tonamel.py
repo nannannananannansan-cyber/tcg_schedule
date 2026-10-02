@@ -9,14 +9,6 @@ import requests
 
 BASE_URL = "https://tonamel.com"
 
-SEARCH_URL = (
-    "https://tonamel.com/competitions"
-    "?game=pokemon_card"
-    "&region=JP"
-    "&nt=0"
-    "&sr=%E5%A4%A7%E9%98%AA"
-)
-
 CSRF_URL = "https://tonamel.com/api/csrf_token"
 
 GRAPHQL_URL = (
@@ -24,20 +16,34 @@ GRAPHQL_URL = (
     "competition_management"
 )
 
-GAME_ID = "pokemon_card"
-
 # 大阪府
 OSAKA_PREFECTURE_ID = (
     "cmVnaW9uUHJlZmVjdHVyZS8yNw"
 )
 
-OUTPUT_PATH = Path(
-    "data/tonamel_pokemon.json"
-)
-
 PAGE_SIZE = 32
 
 JST = ZoneInfo("Asia/Tokyo")
+
+
+GAMES = [
+    {
+        "game_id": "pokemon_card",
+        "game": "pokemon",
+        "name": "ポケモン",
+        "output_path": Path(
+            "data/tonamel_pokemon.json"
+        ),
+    },
+    {
+        "game_id": "disneylorcana",
+        "game": "lorcana",
+        "name": "ロルカナ",
+        "output_path": Path(
+            "data/tonamel_lorcana.json"
+        ),
+    },
+]
 
 
 QUERY = """
@@ -142,7 +148,17 @@ def get_today_timestamp():
     return str(int(today.timestamp()))
 
 
-def create_session():
+def get_search_url(game_id):
+    return (
+        "https://tonamel.com/competitions"
+        f"?game={game_id}"
+        "&region=JP"
+        "&nt=0"
+        "&sr=%E5%A4%A7%E9%98%AA"
+    )
+
+
+def create_session(search_url):
     """
     Tonamelの匿名セッションを作成し、
     CSRFトークンを取得する。
@@ -170,7 +186,7 @@ def create_session():
     print("Tonamel匿名セッション作成中")
 
     response = session.get(
-        SEARCH_URL,
+        search_url,
         timeout=30,
     )
 
@@ -191,7 +207,7 @@ def create_session():
     response = session.get(
         CSRF_URL,
         headers={
-            "Referer": SEARCH_URL,
+            "Referer": search_url,
         },
         timeout=30,
     )
@@ -218,9 +234,7 @@ def create_session():
             )
         )
 
-    print(
-        "  CSRFトークン取得成功"
-    )
+    print("  CSRFトークン取得成功")
 
     return session, csrf_token
 
@@ -228,6 +242,8 @@ def create_session():
 def fetch_page(
     session,
     csrf_token,
+    game_id,
+    search_url,
     after="",
 ):
     payload = {
@@ -236,7 +252,7 @@ def fetch_page(
         ),
         "variables": {
             "condition": {
-                "gameId": GAME_ID,
+                "gameId": game_id,
                 "startAfter": (
                     get_today_timestamp()
                 ),
@@ -264,10 +280,10 @@ def fetch_page(
             "application/json"
         ),
         "Origin": BASE_URL,
-        "Referer": SEARCH_URL,
+        "Referer": search_url,
         "X-CSRF-Token": csrf_token,
         "X-Page-View-Location": (
-            SEARCH_URL
+            search_url
         ),
     }
 
@@ -308,6 +324,8 @@ def fetch_page(
 def fetch_all_competitions(
     session,
     csrf_token,
+    game_id,
+    search_url,
 ):
     competitions = []
 
@@ -323,6 +341,8 @@ def fetch_all_competitions(
         result = fetch_page(
             session,
             csrf_token,
+            game_id,
+            search_url,
             after,
         )
 
@@ -537,7 +557,8 @@ def is_cancelled(
 
 
 def normalize_competition(
-    competition
+    competition,
+    game,
 ):
     tournament = (
         get_main_tournament(
@@ -612,7 +633,7 @@ def normalize_competition(
             f"tonamel-"
             f"{competition_id}"
         ),
-        "game": "pokemon",
+        "game": game,
         "source": "tonamel",
         "event_name": (
             competition.get(
@@ -678,14 +699,16 @@ def normalize_competition(
 
 
 def normalize_competitions(
-    competitions
+    competitions,
+    game,
 ):
     events = []
 
     for competition in competitions:
         event = (
             normalize_competition(
-                competition
+                competition,
+                game,
             )
         )
 
@@ -703,15 +726,19 @@ def normalize_competitions(
     return events
 
 
-def save_events(events):
-    OUTPUT_PATH.parent.mkdir(
+def save_events(
+    events,
+    game,
+    output_path,
+):
+    output_path.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
     data = {
         "source": "tonamel",
-        "game": "pokemon",
+        "game": game,
         "updated_at": (
             datetime
             .now(JST)
@@ -720,7 +747,7 @@ def save_events(events):
         "events": events,
     }
 
-    with OUTPUT_PATH.open(
+    with output_path.open(
         "w",
         encoding="utf-8",
     ) as file:
@@ -732,20 +759,37 @@ def save_events(events):
         )
 
 
-def main():
-    print(
-        "Tonamel "
-        "ポケモン大会取得開始"
+def fetch_game(game_config):
+    game_id = game_config["game_id"]
+    game = game_config["game"]
+    name = game_config["name"]
+    output_path = (
+        game_config["output_path"]
     )
 
+    search_url = (
+        get_search_url(game_id)
+    )
+
+    print()
+    print("=" * 50)
+    print(
+        f"Tonamel {name}大会取得開始"
+    )
+    print("=" * 50)
+
     session, csrf_token = (
-        create_session()
+        create_session(
+            search_url
+        )
     )
 
     competitions = (
         fetch_all_competitions(
             session,
             csrf_token,
+            game_id,
+            search_url,
         )
     )
 
@@ -757,7 +801,8 @@ def main():
 
     events = (
         normalize_competitions(
-            competitions
+            competitions,
+            game,
         )
     )
 
@@ -766,12 +811,30 @@ def main():
         f"{len(events)}件",
     )
 
-    save_events(events)
+    save_events(
+        events,
+        game,
+        output_path,
+    )
 
     print(
         "保存先:",
-        OUTPUT_PATH,
+        output_path,
     )
+
+
+def main():
+    for game_config in GAMES:
+        fetch_game(
+            game_config
+        )
+
+        time.sleep(1)
+
+    print()
+    print("=" * 50)
+    print("Tonamel 全ゲーム取得完了")
+    print("=" * 50)
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "pokemon",
-  "updated_at": "2026-10-03T02:08:29.123002+09:00",
+  "updated_at": "2026-10-03T02:12:53.569662+09:00",
   "events": [
     {
       "id": "tonamel-rJDpT",
@@ -235,7 +235,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前13-13　なんばKHビル",
       "capacity": 96,
-      "entrant_count": 53,
+      "entrant_count": 54,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -515,7 +515,7 @@
       "prefecture": "大阪府",
       "address": "大阪市住之江区粉浜西1-4-3ｴﾊﾞｰｸﾞﾘｰﾝ住吉2F",
       "capacity": 32,
-      "entrant_count": 2,
+      "entrant_count": 3,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
