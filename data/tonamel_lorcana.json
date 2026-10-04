@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-04T11:36:38.888852+09:00",
+  "updated_at": "2026-10-05T06:28:03.315459+09:00",
   "events": [
     {
       "id": "tonamel-qrJTV",
@@ -15,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪市浪速区難波中2丁目2-15 高砂ビル4F",
       "capacity": 16,
-      "entrant_count": 22,
+      "entrant_count": 23,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
