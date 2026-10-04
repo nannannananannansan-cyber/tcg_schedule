@@ -1,28 +1,8 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-03T05:13:54.841445+09:00",
+  "updated_at": "2026-10-04T11:36:38.888852+09:00",
   "events": [
-    {
-      "id": "tonamel-jdKYA",
-      "game": "lorcana",
-      "source": "tonamel",
-      "event_name": "ロルカナスペシャルトーナメント(ヴァインズ・アタック！ シーズン) 10/3(土)14:00~ ",
-      "date": "2026-10-03",
-      "start_time": "14:00",
-      "end_time": "",
-      "shop_name": "ｶｰﾄﾞｼｮｯﾌﾟ黄鶏屋",
-      "prefecture": "大阪府",
-      "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
-      "capacity": 24,
-      "entrant_count": 9,
-      "entry_fee": "1000円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/jdKYA"
-    },
     {
       "id": "tonamel-qrJTV",
       "game": "lorcana",
@@ -35,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪市浪速区難波中2丁目2-15 高砂ビル4F",
       "capacity": 16,
-      "entrant_count": 21,
+      "entrant_count": 22,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
