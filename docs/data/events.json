@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-07T20:15:36.166657+00:00",
-  "event_count": 2609,
+  "updated_at": "2026-10-08T20:16:20.526586+00:00",
+  "event_count": 2612,
   "events": [
     {
       "id": "pokemon-1963309",
@@ -6406,24 +6406,6 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-07-0",
-      "game": "lorcana",
-      "event_name": "スペシャルトーナメント（ヴァインズ・アタック！ シーズン）",
-      "date": "2026-10-07",
-      "start_time": "14:00",
-      "end_time": null,
-      "shop_name": "S CARD OASIS 鳳店",
-      "prefecture": "大阪府",
-      "address": "大阪府堺市西区鳳南町3丁199-12アリオ鳳3F",
-      "capacity": 16,
-      "entry_fee": "1000円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source": "official"
-    },
-    {
       "id": "pokemon-1942205",
       "game": "pokemon",
       "event_name": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -7412,24 +7394,6 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-07-1",
-      "game": "lorcana",
-      "event_name": "スペシャルトーナメント（ヴァインズ・アタック！ シーズン）",
-      "date": "2026-10-07",
-      "start_time": "19:00",
-      "end_time": null,
-      "shop_name": "トレカチャンピオンなんば日本橋店",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市浪速区難波中2-2-5高砂ビル3/4F",
-      "capacity": 16,
-      "entry_fee": "無料",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source": "official"
-    },
-    {
       "id": "pokemon-1952113",
       "game": "pokemon",
       "event_name": "【26/10】ポケモンカードジム　ジムバトル",
@@ -7620,26 +7584,6 @@
       "source": "official"
     },
     {
-      "id": "tonamel-4Drqn",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "ハレツー100円デイリー",
-      "date": "2026-10-08",
-      "start_time": "13:00",
-      "end_time": "",
-      "shop_name": "晴れる屋２　なんば店",
-      "prefecture": "大阪府",
-      "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
-      "capacity": 80,
-      "entrant_count": 0,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/4Drqn"
-    },
-    {
       "id": "pokemon-1943991",
       "game": "pokemon",
       "event_name": "【26/10】ポケモンカードジム　ジムバトル",
@@ -7773,26 +7717,6 @@
       "source": "official"
     },
     {
-      "id": "tonamel-i7qvb",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "10/8(木) ゆるジムバトル ",
-      "date": "2026-10-08",
-      "start_time": "15:30",
-      "end_time": "",
-      "shop_name": "BAR　UNKNOWN",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市浪速区難波中2-２-7ナンバFKビル2F",
-      "capacity": 24,
-      "entrant_count": 1,
-      "entry_fee": "500円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/i7qvb"
-    },
-    {
       "id": "pokemon-1970214",
       "game": "pokemon",
       "event_name": "【26/10】ポケモンカードジム　ジムバトル",
@@ -7812,7 +7736,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-08-2",
+      "id": "lorcana-2026-10-08-0",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-08",
@@ -7923,26 +7847,6 @@
       "cancelled": false,
       "source_url": "https://players.pokemon-card.com/event/detail/1148057/1/20895/20261008/1962537",
       "source": "official"
-    },
-    {
-      "id": "tonamel-fvFZj",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "ふらっとポケカ交流会 ポケカ30th記念Ver",
-      "date": "2026-10-08",
-      "start_time": "16:00",
-      "end_time": "",
-      "shop_name": "晴れる屋２　なんば店",
-      "prefecture": "大阪府",
-      "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
-      "capacity": 80,
-      "entrant_count": 0,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/fvFZj"
     },
     {
       "id": "pokemon-1942563",
@@ -8135,26 +8039,6 @@
       "source": "official"
     },
     {
-      "id": "tonamel-gHlqS",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "ニンニンBOX争奪戦 10/8",
-      "date": "2026-10-08",
-      "start_time": "17:30",
-      "end_time": "",
-      "shop_name": "ニンニン大阪日本橋2号店",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市浪速区日本橋西1-2-25 ST難波ビル2階",
-      "capacity": 32,
-      "entrant_count": 9,
-      "entry_fee": "500円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/gHlqS"
-    },
-    {
       "id": "pokemon-1960040",
       "game": "pokemon",
       "event_name": "【26/10】エクストラバトルの日",
@@ -8343,26 +8227,6 @@
       "cancelled": false,
       "source_url": "https://players.pokemon-card.com/event/detail/1148308/1/10894/20261008/1948906",
       "source": "official"
-    },
-    {
-      "id": "tonamel-OZi9h",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "ふらっとポケカ交流会 ポケカ30th記念Ver",
-      "date": "2026-10-08",
-      "start_time": "18:30",
-      "end_time": "",
-      "shop_name": "晴れる屋２　なんば店",
-      "prefecture": "大阪府",
-      "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
-      "capacity": 80,
-      "entrant_count": 0,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/OZi9h"
     },
     {
       "id": "pokemon-1963289",
@@ -8669,7 +8533,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-08-3",
+      "id": "lorcana-2026-10-08-1",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-08",
@@ -8763,26 +8627,6 @@
       "source": "official"
     },
     {
-      "id": "tonamel-uYXuf",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "トレーナーズリーグ スタンダード オープンリーグ",
-      "date": "2026-10-08",
-      "start_time": "19:30",
-      "end_time": "",
-      "shop_name": "トレカ専門店ポップタウン",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市浪速区日本橋4−9−22リファインビル4階",
-      "capacity": 24,
-      "entrant_count": 2,
-      "entry_fee": "300円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/uYXuf"
-    },
-    {
       "id": "pokemon-1951303",
       "game": "pokemon",
       "event_name": "【26/10】ポケモンカードジム　ジムバトル",
@@ -8859,27 +8703,7 @@
       "source": "official"
     },
     {
-      "id": "tonamel-ptdnS",
-      "game": "pokemon",
-      "source": "tonamel",
-      "event_name": "ハレツーパックバトル",
-      "date": "2026-10-08",
-      "start_time": "20:00",
-      "end_time": "",
-      "shop_name": "晴れる屋２　なんば店",
-      "prefecture": "大阪府",
-      "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
-      "capacity": 80,
-      "entrant_count": 0,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/ptdnS"
-    },
-    {
-      "id": "lorcana-2026-10-08-4",
+      "id": "lorcana-2026-10-08-2",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-08",
@@ -9099,7 +8923,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区日本橋西1丁目7-27　2F",
       "capacity": 24,
-      "entrant_count": 23,
+      "entrant_count": 20,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -9119,7 +8943,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区難波中2-２-7ナンバFKビル2F",
       "capacity": 24,
-      "entrant_count": 0,
+      "entrant_count": 3,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -9234,7 +9058,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 1,
+      "entrant_count": 2,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -9767,7 +9591,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 0,
+      "entrant_count": 2,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -10156,7 +9980,27 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-09-5",
+      "id": "tonamel-xAhcT",
+      "game": "pokemon",
+      "source": "tonamel",
+      "event_name": "ジムバトル(19:00〜回)",
+      "date": "2026-10-09",
+      "start_time": "19:00",
+      "end_time": "",
+      "shop_name": "トレカ専門店ポップタウン",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市浪速区日本橋4−9−22リファインビル4階",
+      "capacity": 24,
+      "entrant_count": 1,
+      "entry_fee": "300円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/xAhcT"
+    },
+    {
+      "id": "lorcana-2026-10-09-3",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-09",
@@ -10231,10 +10075,10 @@
       "source": "official"
     },
     {
-      "id": "tonamel-v1LF5",
+      "id": "tonamel-O5JJC",
       "game": "pokemon",
       "source": "tonamel",
-      "event_name": "10/9(金) ゆる交流会 #なんでも",
+      "event_name": "10/9(金) ゆる交流会 なんでも！",
       "date": "2026-10-09",
       "start_time": "20:00",
       "end_time": "",
@@ -10242,13 +10086,13 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区難波中2-２-7ナンバFKビル2F",
       "capacity": 16,
-      "entrant_count": 0,
+      "entrant_count": 4,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
       "full": false,
       "cancelled": false,
-      "source_url": "https://tonamel.com/competition/v1LF5"
+      "source_url": "https://tonamel.com/competition/O5JJC"
     },
     {
       "id": "pokemon-1968067",
@@ -10328,7 +10172,7 @@
       "source_url": "https://tonamel.com/competition/6Qr3Y"
     },
     {
-      "id": "lorcana-2026-10-09-6",
+      "id": "lorcana-2026-10-09-4",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-09",
@@ -10403,6 +10247,26 @@
       "source": "official"
     },
     {
+      "id": "tonamel-3VBpA",
+      "game": "pokemon",
+      "source": "tonamel",
+      "event_name": "ジムバトル(20:30〜回)",
+      "date": "2026-10-09",
+      "start_time": "20:30",
+      "end_time": "",
+      "shop_name": "トレカ専門店ポップタウン",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市浪速区日本橋4−9−22リファインビル4階",
+      "capacity": 24,
+      "entrant_count": 0,
+      "entry_fee": "300円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/3VBpA"
+    },
+    {
       "id": "pokemon-1940684",
       "game": "pokemon",
       "event_name": "シティリーグ2027 シーズン1 オープンリーグ",
@@ -10441,7 +10305,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-10-7",
+      "id": "lorcana-2026-10-10-5",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-10",
@@ -10736,7 +10600,7 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂1丁目2‐1",
       "capacity": 38,
-      "entrant_count": 44,
+      "entrant_count": 41,
       "entry_fee": "7500円",
       "regulation": null,
       "distance": null,
@@ -11157,7 +11021,7 @@
       "prefecture": "大阪府",
       "address": "大阪府堺市堺区三国ケ丘御幸通18-7法業第八堺東ビル2F",
       "capacity": 18,
-      "entrant_count": 17,
+      "entrant_count": 14,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -11367,11 +11231,11 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区日本橋4-9-22リファインビル4階",
       "capacity": 24,
-      "entrant_count": 24,
+      "entrant_count": 22,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
-      "full": true,
+      "full": false,
       "cancelled": false,
       "source_url": "https://tonamel.com/competition/0CAP9"
     },
@@ -11672,7 +11536,7 @@
       "prefecture": "大阪府",
       "address": "大阪市浪速区難波中2丁目2-15 高砂ビル4F",
       "capacity": 16,
-      "entrant_count": 22,
+      "entrant_count": 21,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -11692,7 +11556,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 3,
+      "entrant_count": 4,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -12092,7 +11956,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 1,
+      "entrant_count": 2,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -12807,7 +12671,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-11-8",
+      "id": "lorcana-2026-10-11-6",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-11",
@@ -12901,7 +12765,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-11-9",
+      "id": "lorcana-2026-10-11-7",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-11",
@@ -13177,7 +13041,7 @@
       "prefecture": "大阪府",
       "address": "大阪府河内長野市西之山町1-2",
       "capacity": 32,
-      "entrant_count": 53,
+      "entrant_count": 54,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -13502,7 +13366,7 @@
       "prefecture": "大阪府",
       "address": "大阪市北区茶屋町10番12号 4階",
       "capacity": 64,
-      "entrant_count": 70,
+      "entrant_count": 78,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -13770,7 +13634,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 1,
+      "entrant_count": 2,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -14045,7 +13909,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-11-10",
+      "id": "lorcana-2026-10-11-8",
       "game": "lorcana",
       "event_name": "スペシャルトーナメント（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-11",
@@ -14284,7 +14148,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市淀川区十三本町２丁目１−２０",
       "capacity": 24,
-      "entrant_count": 27,
+      "entrant_count": 29,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -14304,7 +14168,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前7番10号 COCONAMBA 5階",
       "capacity": 80,
-      "entrant_count": 1,
+      "entrant_count": 2,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -14580,7 +14444,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-11-11",
+      "id": "lorcana-2026-10-11-9",
       "game": "lorcana",
       "event_name": "特別ルール大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-11",
@@ -15066,7 +14930,7 @@
       "prefecture": "大阪府",
       "address": "〒573-1121 大阪府枚方市楠葉花園町１５−１　南館2階",
       "capacity": 32,
-      "entrant_count": 18,
+      "entrant_count": 29,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -15276,7 +15140,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区日本橋4-9-22リファインビル4階",
       "capacity": 24,
-      "entrant_count": 30,
+      "entrant_count": 31,
       "entry_fee": "3000円",
       "regulation": null,
       "distance": null,
@@ -16030,7 +15894,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-12-12",
+      "id": "lorcana-2026-10-12-10",
       "game": "lorcana",
       "event_name": "スペシャルトーナメント（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-12",
@@ -16390,7 +16254,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-12-13",
+      "id": "lorcana-2026-10-12-11",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-12",
@@ -17113,7 +16977,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-13-14",
+      "id": "lorcana-2026-10-13-12",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-13",
@@ -17493,7 +17357,7 @@
       "source_url": "https://tonamel.com/competition/CIvOS"
     },
     {
-      "id": "lorcana-2026-10-13-15",
+      "id": "lorcana-2026-10-13-13",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-13",
@@ -17816,7 +17680,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-13-16",
+      "id": "lorcana-2026-10-13-14",
       "game": "lorcana",
       "event_name": "スペシャルトーナメント（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-13",
@@ -19112,7 +18976,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-14-17",
+      "id": "lorcana-2026-10-14-15",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ヴァインズ・アタック！ シーズン）",
       "date": "2026-10-14",
@@ -20792,7 +20656,7 @@
       "source_url": "https://tonamel.com/competition/gCCtc"
     },
     {
-      "id": "lorcana-2026-10-16-18",
+      "id": "lorcana-2026-10-16-16",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-16",
@@ -21268,7 +21132,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-19",
+      "id": "lorcana-2026-10-16-17",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-16",
@@ -21457,7 +21321,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-20",
+      "id": "lorcana-2026-10-16-18",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-10-16",
@@ -21874,7 +21738,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-23",
+      "id": "lorcana-2026-10-16-21",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-16",
@@ -21892,7 +21756,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-21",
+      "id": "lorcana-2026-10-16-19",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-16",
@@ -21910,7 +21774,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-22",
+      "id": "lorcana-2026-10-16-20",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-16",
@@ -22004,7 +21868,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-16-24",
+      "id": "lorcana-2026-10-16-22",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-16",
@@ -22119,7 +21983,7 @@
       "source_url": "https://tonamel.com/competition/NRekI"
     },
     {
-      "id": "lorcana-2026-10-16-25",
+      "id": "lorcana-2026-10-16-23",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-16",
@@ -22499,7 +22363,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-26",
+      "id": "lorcana-2026-10-17-24",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-17",
@@ -22897,7 +22761,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-27",
+      "id": "lorcana-2026-10-17-25",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-17",
@@ -22926,7 +22790,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市北区曾根崎１丁目７‐１５ 曽根崎ムーンビル3F-3A",
       "capacity": 15,
-      "entrant_count": 6,
+      "entrant_count": 7,
       "entry_fee": "2000円",
       "regulation": null,
       "distance": null,
@@ -23163,7 +23027,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-28",
+      "id": "lorcana-2026-10-17-26",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-17",
@@ -23752,7 +23616,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-29",
+      "id": "lorcana-2026-10-17-27",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-17",
@@ -23999,7 +23863,7 @@
       "source_url": "https://tonamel.com/competition/lyZou"
     },
     {
-      "id": "lorcana-2026-10-17-30",
+      "id": "lorcana-2026-10-17-28",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-17",
@@ -24226,7 +24090,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-32",
+      "id": "lorcana-2026-10-17-30",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-17",
@@ -24244,7 +24108,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-31",
+      "id": "lorcana-2026-10-17-29",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-17",
@@ -24492,7 +24356,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-33",
+      "id": "lorcana-2026-10-17-31",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-17",
@@ -24510,7 +24374,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-17-34",
+      "id": "lorcana-2026-10-17-32",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-17",
@@ -24813,7 +24677,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-35",
+      "id": "lorcana-2026-10-18-33",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -24850,7 +24714,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-36",
+      "id": "lorcana-2026-10-18-34",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -24944,7 +24808,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-37",
+      "id": "lorcana-2026-10-18-35",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -25345,7 +25209,7 @@
       "source_url": "https://tonamel.com/competition/pPd11"
     },
     {
-      "id": "lorcana-2026-10-18-39",
+      "id": "lorcana-2026-10-18-37",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -25363,7 +25227,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-38",
+      "id": "lorcana-2026-10-18-36",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -25449,7 +25313,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市中央区西心斎橋２丁目１０−３２ 3F",
       "capacity": 64,
-      "entrant_count": 25,
+      "entrant_count": 24,
       "entry_fee": "300円",
       "regulation": null,
       "distance": null,
@@ -25648,7 +25512,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-40",
+      "id": "lorcana-2026-10-18-38",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -25876,7 +25740,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-41",
+      "id": "lorcana-2026-10-18-39",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -25989,7 +25853,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-42",
+      "id": "lorcana-2026-10-18-40",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -26255,7 +26119,7 @@
       "source_url": "https://tonamel.com/competition/QXz5X"
     },
     {
-      "id": "lorcana-2026-10-18-43",
+      "id": "lorcana-2026-10-18-41",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -26330,7 +26194,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-44",
+      "id": "lorcana-2026-10-18-42",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -26748,7 +26612,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-46",
+      "id": "lorcana-2026-10-18-44",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-18",
@@ -26766,7 +26630,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-45",
+      "id": "lorcana-2026-10-18-43",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -26918,7 +26782,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-47",
+      "id": "lorcana-2026-10-18-45",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -27013,7 +26877,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-18-48",
+      "id": "lorcana-2026-10-18-46",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-18",
@@ -27698,7 +27562,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-19-49",
+      "id": "lorcana-2026-10-19-47",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-19",
@@ -28269,7 +28133,7 @@
       "source_url": "https://tonamel.com/competition/hIICe"
     },
     {
-      "id": "lorcana-2026-10-19-50",
+      "id": "lorcana-2026-10-19-48",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-19",
@@ -28783,7 +28647,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-20-51",
+      "id": "lorcana-2026-10-20-49",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-20",
@@ -29296,7 +29160,7 @@
       "source_url": "https://tonamel.com/competition/OjpGg"
     },
     {
-      "id": "lorcana-2026-10-20-52",
+      "id": "lorcana-2026-10-20-50",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-20",
@@ -29600,7 +29464,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-20-53",
+      "id": "lorcana-2026-10-20-51",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-20",
@@ -29859,7 +29723,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市中央区西心斎橋2-10-24 ",
       "capacity": 100,
-      "entrant_count": 20,
+      "entrant_count": 22,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -30059,7 +29923,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-21-54",
+      "id": "lorcana-2026-10-21-52",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-21",
@@ -30211,7 +30075,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-21-56",
+      "id": "lorcana-2026-10-21-54",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-21",
@@ -30229,7 +30093,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-21-55",
+      "id": "lorcana-2026-10-21-53",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-21",
@@ -31199,7 +31063,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-21-57",
+      "id": "lorcana-2026-10-21-55",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-21",
@@ -32343,7 +32207,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-22-58",
+      "id": "lorcana-2026-10-22-56",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-22",
@@ -32571,7 +32435,7 @@
       "source_url": "https://tonamel.com/competition/9qs4R"
     },
     {
-      "id": "lorcana-2026-10-22-60",
+      "id": "lorcana-2026-10-22-58",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-22",
@@ -32589,7 +32453,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-22-59",
+      "id": "lorcana-2026-10-22-57",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-22",
@@ -32607,7 +32471,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-22-61",
+      "id": "lorcana-2026-10-22-59",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-22",
@@ -32951,7 +32815,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-62",
+      "id": "lorcana-2026-10-23-60",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33121,7 +32985,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-63",
+      "id": "lorcana-2026-10-23-61",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33862,7 +33726,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-67",
+      "id": "lorcana-2026-10-23-65",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33880,7 +33744,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-64",
+      "id": "lorcana-2026-10-23-62",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33898,7 +33762,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-66",
+      "id": "lorcana-2026-10-23-64",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33916,7 +33780,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-65",
+      "id": "lorcana-2026-10-23-63",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -33991,7 +33855,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-23-68",
+      "id": "lorcana-2026-10-23-66",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-23",
@@ -34212,7 +34076,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市住之江区 粉浜西1丁目4-3 エバーグリーン住吉2F",
       "capacity": 64,
-      "entrant_count": 50,
+      "entrant_count": 51,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
@@ -34430,7 +34294,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-69",
+      "id": "lorcana-2026-10-24-67",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -34459,7 +34323,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市中央区西心斎橋2-10-24 2階",
       "capacity": 50,
-      "entrant_count": 19,
+      "entrant_count": 22,
       "entry_fee": "2000円",
       "regulation": null,
       "distance": null,
@@ -34810,7 +34674,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-70",
+      "id": "lorcana-2026-10-24-68",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-24",
@@ -35610,7 +35474,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-71",
+      "id": "lorcana-2026-10-24-69",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -35819,7 +35683,7 @@
       "source_url": "https://tonamel.com/competition/sQuLw"
     },
     {
-      "id": "lorcana-2026-10-24-72",
+      "id": "lorcana-2026-10-24-70",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -36046,7 +35910,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-73",
+      "id": "lorcana-2026-10-24-71",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -36064,7 +35928,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-74",
+      "id": "lorcana-2026-10-24-72",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -36332,7 +36196,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-24-75",
+      "id": "lorcana-2026-10-24-73",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-24",
@@ -36475,7 +36339,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区難波千日前13-13　なんばKHビル",
       "capacity": 96,
-      "entrant_count": 18,
+      "entrant_count": 19,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -36655,7 +36519,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-77",
+      "id": "lorcana-2026-10-25-75",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -36673,7 +36537,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-76",
+      "id": "lorcana-2026-10-25-74",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -37120,7 +36984,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区日本橋西1-2-25 ST難波ビル2階",
       "capacity": 32,
-      "entrant_count": 6,
+      "entrant_count": 7,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -37376,7 +37240,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-78",
+      "id": "lorcana-2026-10-25-76",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -37424,7 +37288,7 @@
       "prefecture": "大阪府",
       "address": "大阪府茨木市駅前１丁目３番９号　生田ビル３０１号",
       "capacity": 32,
-      "entrant_count": 22,
+      "entrant_count": 23,
       "entry_fee": "800円",
       "regulation": null,
       "distance": null,
@@ -38080,7 +37944,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-79",
+      "id": "lorcana-2026-10-25-77",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -38536,7 +38400,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-80",
+      "id": "lorcana-2026-10-25-78",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -38650,7 +38514,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-81",
+      "id": "lorcana-2026-10-25-79",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-25",
@@ -38745,7 +38609,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-25-82",
+      "id": "lorcana-2026-10-25-80",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-25",
@@ -39411,7 +39275,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-26-83",
+      "id": "lorcana-2026-10-26-81",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-26",
@@ -39867,7 +39731,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-26-84",
+      "id": "lorcana-2026-10-26-82",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-26",
@@ -40057,7 +39921,7 @@
       "source_url": "https://tonamel.com/competition/45xks"
     },
     {
-      "id": "lorcana-2026-10-26-85",
+      "id": "lorcana-2026-10-26-83",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-26",
@@ -40075,7 +39939,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-26-86",
+      "id": "lorcana-2026-10-26-84",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-26",
@@ -40112,7 +39976,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-87",
+      "id": "lorcana-2026-10-27-85",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-27",
@@ -40245,7 +40109,7 @@
       "source_url": "https://tonamel.com/competition/3i2X6"
     },
     {
-      "id": "lorcana-2026-10-27-88",
+      "id": "lorcana-2026-10-27-86",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40263,7 +40127,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-89",
+      "id": "lorcana-2026-10-27-87",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40376,7 +40240,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-90",
+      "id": "lorcana-2026-10-27-88",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40470,7 +40334,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-91",
+      "id": "lorcana-2026-10-27-89",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40526,7 +40390,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-92",
+      "id": "lorcana-2026-10-27-90",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40659,7 +40523,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-94",
+      "id": "lorcana-2026-10-27-92",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-27",
@@ -40677,7 +40541,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-93",
+      "id": "lorcana-2026-10-27-91",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -40809,7 +40673,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-95",
+      "id": "lorcana-2026-10-27-93",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-27",
@@ -41036,7 +40900,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-96",
+      "id": "lorcana-2026-10-27-94",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -41207,7 +41071,7 @@
       "source_url": "https://tonamel.com/competition/7MjJ5"
     },
     {
-      "id": "lorcana-2026-10-27-97",
+      "id": "lorcana-2026-10-27-95",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-27",
@@ -41511,7 +41375,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-98",
+      "id": "lorcana-2026-10-27-96",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -41529,7 +41393,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-27-99",
+      "id": "lorcana-2026-10-27-97",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -41700,7 +41564,7 @@
       "source_url": "https://tonamel.com/competition/qPUlP"
     },
     {
-      "id": "lorcana-2026-10-27-100",
+      "id": "lorcana-2026-10-27-98",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-27",
@@ -41986,7 +41850,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-28-101",
+      "id": "lorcana-2026-10-28-99",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-28",
@@ -42138,7 +42002,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-28-102",
+      "id": "lorcana-2026-10-28-100",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-28",
@@ -42251,7 +42115,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-28-103",
+      "id": "lorcana-2026-10-28-101",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-28",
@@ -43126,7 +42990,7 @@
       "source_url": "https://tonamel.com/competition/oaRci"
     },
     {
-      "id": "lorcana-2026-10-28-104",
+      "id": "lorcana-2026-10-28-102",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-28",
@@ -43221,7 +43085,7 @@
       "source_url": "https://tonamel.com/competition/DsPag"
     },
     {
-      "id": "lorcana-2026-10-29-105",
+      "id": "lorcana-2026-10-29-103",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44231,7 +44095,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-107",
+      "id": "lorcana-2026-10-29-105",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44249,7 +44113,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-106",
+      "id": "lorcana-2026-10-29-104",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44343,7 +44207,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-108",
+      "id": "lorcana-2026-10-29-106",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44495,7 +44359,7 @@
       "source_url": "https://tonamel.com/competition/ofSL0"
     },
     {
-      "id": "lorcana-2026-10-29-111",
+      "id": "lorcana-2026-10-29-109",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-29",
@@ -44513,7 +44377,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-109",
+      "id": "lorcana-2026-10-29-107",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44531,7 +44395,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-110",
+      "id": "lorcana-2026-10-29-108",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44549,7 +44413,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-29-112",
+      "id": "lorcana-2026-10-29-110",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-29",
@@ -44969,7 +44833,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-113",
+      "id": "lorcana-2026-10-30-111",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -45101,7 +44965,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-114",
+      "id": "lorcana-2026-10-30-112",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-30",
@@ -45309,7 +45173,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-115",
+      "id": "lorcana-2026-10-30-113",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -45917,7 +45781,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-120",
+      "id": "lorcana-2026-10-30-118",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -45935,7 +45799,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-117",
+      "id": "lorcana-2026-10-30-115",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-30",
@@ -45953,7 +45817,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-119",
+      "id": "lorcana-2026-10-30-117",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-10-30",
@@ -45971,7 +45835,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-116",
+      "id": "lorcana-2026-10-30-114",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -45989,7 +45853,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-118",
+      "id": "lorcana-2026-10-30-116",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -46083,7 +45947,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-30-121",
+      "id": "lorcana-2026-10-30-119",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-30",
@@ -46444,7 +46308,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-31-122",
+      "id": "lorcana-2026-10-31-120",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-10-31",
@@ -46671,6 +46535,26 @@
       "source": "official"
     },
     {
+      "id": "tonamel-VqqsF",
+      "game": "pokemon",
+      "source": "tonamel",
+      "event_name": "トイコンプカップEX～2on2～ inトイコンプ堺東店",
+      "date": "2026-10-31",
+      "start_time": "13:00",
+      "end_time": "",
+      "shop_name": "トイコンプ 堺東店",
+      "prefecture": "大阪府",
+      "address": "大阪府堺市堺区北花田口町3丁1-15 TOYOビル1F",
+      "capacity": 22,
+      "entrant_count": 25,
+      "entry_fee": "3000円",
+      "regulation": null,
+      "distance": null,
+      "full": true,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/VqqsF"
+    },
+    {
       "id": "pokemon-1911337",
       "game": "pokemon",
       "event_name": "初心者歓迎！ひがっちゲームズ　ポケモンカードお気楽バトル",
@@ -46861,7 +46745,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-31-123",
+      "id": "lorcana-2026-10-31-121",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-10-31",
@@ -47184,7 +47068,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-31-124",
+      "id": "lorcana-2026-10-31-122",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-10-31",
@@ -47774,7 +47658,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-31-125",
+      "id": "lorcana-2026-10-31-123",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-31",
@@ -47792,7 +47676,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-10-31-126",
+      "id": "lorcana-2026-10-31-124",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-10-31",
@@ -48117,7 +48001,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-127",
+      "id": "lorcana-2026-11-01-125",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48135,7 +48019,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-128",
+      "id": "lorcana-2026-11-01-126",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48153,7 +48037,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-129",
+      "id": "lorcana-2026-11-01-127",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48171,7 +48055,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-130",
+      "id": "lorcana-2026-11-01-128",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48189,7 +48073,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-131",
+      "id": "lorcana-2026-11-01-129",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-01",
@@ -48207,7 +48091,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-132",
+      "id": "lorcana-2026-11-01-130",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48225,7 +48109,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-133",
+      "id": "lorcana-2026-11-01-131",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48243,7 +48127,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-01-134",
+      "id": "lorcana-2026-11-01-132",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-01",
@@ -48261,7 +48145,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-135",
+      "id": "lorcana-2026-11-02-133",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-02",
@@ -48279,7 +48163,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-137",
+      "id": "lorcana-2026-11-02-135",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-02",
@@ -48297,7 +48181,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-136",
+      "id": "lorcana-2026-11-02-134",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-02",
@@ -48315,7 +48199,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-138",
+      "id": "lorcana-2026-11-02-136",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-02",
@@ -48333,7 +48217,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-139",
+      "id": "lorcana-2026-11-02-137",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-02",
@@ -48351,7 +48235,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-02-140",
+      "id": "lorcana-2026-11-02-138",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-02",
@@ -48426,7 +48310,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-142",
+      "id": "lorcana-2026-11-03-140",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48444,7 +48328,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-141",
+      "id": "lorcana-2026-11-03-139",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48473,7 +48357,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市西成区岸里１丁目１−５０",
       "capacity": 160,
-      "entrant_count": 171,
+      "entrant_count": 172,
       "entry_fee": "6000円",
       "regulation": null,
       "distance": null,
@@ -48502,7 +48386,7 @@
       "source_url": "https://tonamel.com/competition/efiWZ"
     },
     {
-      "id": "lorcana-2026-11-03-143",
+      "id": "lorcana-2026-11-03-141",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48520,7 +48404,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-144",
+      "id": "lorcana-2026-11-03-142",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48538,7 +48422,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-145",
+      "id": "lorcana-2026-11-03-143",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-03",
@@ -48556,7 +48440,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-146",
+      "id": "lorcana-2026-11-03-144",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48574,7 +48458,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-147",
+      "id": "lorcana-2026-11-03-145",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48592,7 +48476,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-148",
+      "id": "lorcana-2026-11-03-146",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48610,7 +48494,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-149",
+      "id": "lorcana-2026-11-03-147",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48628,7 +48512,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-150",
+      "id": "lorcana-2026-11-03-148",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-03",
@@ -48646,7 +48530,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-03-151",
+      "id": "lorcana-2026-11-03-149",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-03",
@@ -48683,7 +48567,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-04-152",
+      "id": "lorcana-2026-11-04-150",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-04",
@@ -48701,7 +48585,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-04-154",
+      "id": "lorcana-2026-11-04-152",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-04",
@@ -48719,7 +48603,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-04-153",
+      "id": "lorcana-2026-11-04-151",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-04",
@@ -48737,7 +48621,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-04-155",
+      "id": "lorcana-2026-11-04-153",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-04",
@@ -48755,7 +48639,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-04-156",
+      "id": "lorcana-2026-11-04-154",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-04",
@@ -48792,7 +48676,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-05-157",
+      "id": "lorcana-2026-11-05-155",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-05",
@@ -48810,7 +48694,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-05-158",
+      "id": "lorcana-2026-11-05-156",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-05",
@@ -48828,7 +48712,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-05-159",
+      "id": "lorcana-2026-11-05-157",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-05",
@@ -48846,7 +48730,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-160",
+      "id": "lorcana-2026-11-06-158",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48864,7 +48748,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-161",
+      "id": "lorcana-2026-11-06-159",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-06",
@@ -48882,7 +48766,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-162",
+      "id": "lorcana-2026-11-06-160",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48900,7 +48784,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-164",
+      "id": "lorcana-2026-11-06-162",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48918,7 +48802,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-163",
+      "id": "lorcana-2026-11-06-161",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48936,7 +48820,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-165",
+      "id": "lorcana-2026-11-06-163",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48954,7 +48838,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-166",
+      "id": "lorcana-2026-11-06-164",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -48972,7 +48856,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-06-167",
+      "id": "lorcana-2026-11-06-165",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-06",
@@ -49028,7 +48912,27 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-168",
+      "id": "tonamel-j0Nvc",
+      "game": "pokemon",
+      "source": "tonamel",
+      "event_name": "【11/7トレーナーズリーグ】souナンストレリ教室【IN ジラフルなんば】",
+      "date": "2026-11-07",
+      "start_time": "11:00",
+      "end_time": "",
+      "shop_name": "GIRAFULL なんば店",
+      "prefecture": "大阪府",
+      "address": "大阪市中央区難波千日前13-13　なんばKHビル",
+      "capacity": 96,
+      "entrant_count": 0,
+      "entry_fee": "500円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/j0Nvc"
+    },
+    {
+      "id": "lorcana-2026-11-07-166",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49057,7 +48961,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市中央区西心斎橋2-10-24",
       "capacity": 64,
-      "entrant_count": 36,
+      "entrant_count": 37,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
@@ -49066,7 +48970,7 @@
       "source_url": "https://tonamel.com/competition/brLka"
     },
     {
-      "id": "lorcana-2026-11-07-169",
+      "id": "lorcana-2026-11-07-167",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49084,7 +48988,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-170",
+      "id": "lorcana-2026-11-07-168",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49102,7 +49006,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-171",
+      "id": "lorcana-2026-11-07-169",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49120,7 +49024,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-172",
+      "id": "lorcana-2026-11-07-170",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49138,7 +49042,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-173",
+      "id": "lorcana-2026-11-07-171",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49156,7 +49060,7 @@
       "source": "official"
     },
     {
-      "id": "lorcana-2026-11-07-174",
+      "id": "lorcana-2026-11-07-172",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-07",
@@ -49228,6 +49132,132 @@
       "full": true,
       "cancelled": false,
       "source_url": "https://players.pokemon-card.com/event/detail/1115433/1/19850/20261108/1940765",
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-173",
+      "game": "lorcana",
+      "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "11:00",
+      "end_time": null,
+      "shop_name": "あっぷる今福店",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市城東区今福東1-11-27",
+      "capacity": 8,
+      "entry_fee": "参加費２００円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-174",
+      "game": "lorcana",
+      "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "13:00",
+      "end_time": null,
+      "shop_name": "トレカGO!GO!",
+      "prefecture": "大阪府",
+      "address": "大阪府茨木市駅前1丁目3番9号生田ビル301号",
+      "capacity": 8,
+      "entry_fee": "200円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-175",
+      "game": "lorcana",
+      "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "13:00",
+      "end_time": null,
+      "shop_name": "BLACK FROG",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市浪速区日本橋4丁目9-22リファインビル　5F",
+      "capacity": 20,
+      "entry_fee": "1000円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-176",
+      "game": "lorcana",
+      "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "14:00",
+      "end_time": null,
+      "shop_name": "カードショップふらっと",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市北区中津1-2-21共栄ファイブビル601",
+      "capacity": 8,
+      "entry_fee": "300円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-177",
+      "game": "lorcana",
+      "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "14:00",
+      "end_time": null,
+      "shop_name": "プレイズ大阪日本橋本店",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市浪速区日本橋3丁目7-6日本橋無線ビル1F・2F",
+      "capacity": 32,
+      "entry_fee": "無料",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-178",
+      "game": "lorcana",
+      "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "17:30",
+      "end_time": null,
+      "shop_name": "多目的カフェ＆バー「花唐草」",
+      "prefecture": "大阪府",
+      "address": "大阪府富田林市須賀2-19-11-2F",
+      "capacity": 18,
+      "entry_fee": "参加費：1,200円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source": "official"
+    },
+    {
+      "id": "lorcana-2026-11-08-179",
+      "game": "lorcana",
+      "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
+      "date": "2026-11-08",
+      "start_time": "19:00",
+      "end_time": null,
+      "shop_name": "BLACK FROG",
+      "prefecture": "大阪府",
+      "address": "大阪府大阪市浪速区日本橋4丁目9-22リファインビル　5F",
+      "capacity": 8,
+      "entry_fee": "300円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
       "source": "official"
     },
     {
@@ -49356,7 +49386,7 @@
       "prefecture": "大阪府",
       "address": "大阪府茨木市駅前3丁目９番４５号",
       "capacity": 256,
-      "entrant_count": 286,
+      "entrant_count": 287,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
@@ -49519,6 +49549,26 @@
       "source_url": "https://tonamel.com/competition/VX7O4"
     },
     {
+      "id": "tonamel-1fIsI",
+      "game": "pokemon",
+      "source": "tonamel",
+      "event_name": "【11/29トレーナーズリーグ】souナンストレリ教室【IN ジラフルなんば】",
+      "date": "2026-11-29",
+      "start_time": "11:00",
+      "end_time": "",
+      "shop_name": "GIRAFULL なんば店",
+      "prefecture": "大阪府",
+      "address": "大阪市中央区難波千日前13-13　なんばKHビル",
+      "capacity": 96,
+      "entrant_count": 0,
+      "entry_fee": "500円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/1fIsI"
+    },
+    {
       "id": "tonamel-UZGLx",
       "game": "pokemon",
       "source": "tonamel",
@@ -49530,7 +49580,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区西心斎橋2-10-24 プレビュービル 古着屋グリズリー内階段2階",
       "capacity": 64,
-      "entrant_count": 58,
+      "entrant_count": 59,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
