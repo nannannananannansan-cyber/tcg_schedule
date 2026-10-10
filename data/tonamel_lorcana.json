@@ -1,28 +1,8 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-10T05:13:56.327842+09:00",
+  "updated_at": "2026-10-11T05:12:57.975321+09:00",
   "events": [
-    {
-      "id": "tonamel-qrJTV",
-      "game": "lorcana",
-      "source": "tonamel",
-      "event_name": "【BOX争奪戦】ディズニーロルカナ 『ハイぺリアシティ』",
-      "date": "2026-10-10",
-      "start_time": "15:00",
-      "end_time": "",
-      "shop_name": "トレカチャンピオンなんば日本橋店",
-      "prefecture": "大阪府",
-      "address": "大阪市浪速区難波中2丁目2-15 高砂ビル4F",
-      "capacity": 16,
-      "entrant_count": 20,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": true,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/qrJTV"
-    },
     {
       "id": "tonamel-aAJIX",
       "game": "lorcana",
@@ -35,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪府 大阪市浪速区敷津東２丁目１−５",
       "capacity": 32,
-      "entrant_count": 0,
+      "entrant_count": 1,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
