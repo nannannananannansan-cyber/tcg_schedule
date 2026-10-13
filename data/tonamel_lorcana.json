@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-13T05:15:36.548905+09:00",
+  "updated_at": "2026-10-14T05:26:05.397287+09:00",
   "events": [
     {
       "id": "tonamel-aAJIX",
@@ -15,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪府 大阪市浪速区敷津東２丁目１−５",
       "capacity": 32,
-      "entrant_count": 1,
+      "entrant_count": 3,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
