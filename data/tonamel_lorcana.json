@@ -1,28 +1,8 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-16T05:23:45.268231+09:00",
+  "updated_at": "2026-10-17T05:22:31.267071+09:00",
   "events": [
-    {
-      "id": "tonamel-aAJIX",
-      "game": "lorcana",
-      "source": "tonamel",
-      "event_name": "【10/16】BOX確定！！ロルカナ・ファンミーティング【ドラゴンスター日本橋3号店】",
-      "date": "2026-10-16",
-      "start_time": "16:00",
-      "end_time": "",
-      "shop_name": "ドラゴンスター日本橋３号店",
-      "prefecture": "大阪府",
-      "address": "大阪府 大阪市浪速区敷津東２丁目１−５",
-      "capacity": 32,
-      "entrant_count": 3,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/aAJIX"
-    },
     {
       "id": "tonamel-KJqLD",
       "game": "lorcana",
@@ -55,7 +35,7 @@
       "prefecture": "大阪府",
       "address": "大阪府茨木市駅前１丁目３番９号　生田ビル３０１号",
       "capacity": 8,
-      "entrant_count": 4,
+      "entrant_count": 5,
       "entry_fee": "990円",
       "regulation": null,
       "distance": null,
