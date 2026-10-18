@@ -1,27 +1,27 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-18T05:19:41.918480+09:00",
+  "updated_at": "2026-10-19T05:18:51.343096+09:00",
   "events": [
     {
-      "id": "tonamel-g1yDv",
+      "id": "tonamel-ucyl6",
       "game": "lorcana",
       "source": "tonamel",
-      "event_name": "10/18 DLCパックラッシュパーティー",
-      "date": "2026-10-18",
-      "start_time": "13:00",
+      "event_name": "10/21（水）これロア会",
+      "date": "2026-10-21",
+      "start_time": "18:05",
       "end_time": "",
-      "shop_name": "トレカGO!GO!",
+      "shop_name": "カードボックス日本橋店",
       "prefecture": "大阪府",
-      "address": "大阪府茨木市駅前１丁目３番９号　生田ビル３０１号",
-      "capacity": 8,
-      "entrant_count": 6,
-      "entry_fee": "990円",
+      "address": "大阪府大阪市浪速区難波中２丁目 ５−１２",
+      "capacity": 32,
+      "entrant_count": 4,
+      "entry_fee": "500円",
       "regulation": null,
       "distance": null,
       "full": false,
       "cancelled": false,
-      "source_url": "https://tonamel.com/competition/g1yDv"
+      "source_url": "https://tonamel.com/competition/ucyl6"
     },
     {
       "id": "tonamel-VbPgn",
