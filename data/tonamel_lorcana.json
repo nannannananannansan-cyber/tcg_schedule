@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-23T05:25:24.863489+09:00",
+  "updated_at": "2026-10-24T05:23:50.245929+09:00",
   "events": [
     {
       "id": "tonamel-VbPgn",
@@ -15,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪府茨木市駅前１丁目３番９号　生田ビル３０１号",
       "capacity": 32,
-      "entrant_count": 7,
+      "entrant_count": 6,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
