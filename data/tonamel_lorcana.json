@@ -1,28 +1,8 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-24T05:23:50.245929+09:00",
+  "updated_at": "2026-10-25T05:19:32.498909+09:00",
   "events": [
-    {
-      "id": "tonamel-VbPgn",
-      "game": "lorcana",
-      "source": "tonamel",
-      "event_name": "10/24 DLCセットチャンピオンシップ",
-      "date": "2026-10-24",
-      "start_time": "16:00",
-      "end_time": "",
-      "shop_name": "トレカGO!GO!",
-      "prefecture": "大阪府",
-      "address": "大阪府茨木市駅前１丁目３番９号　生田ビル３０１号",
-      "capacity": 32,
-      "entrant_count": 6,
-      "entry_fee": "1000円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/VbPgn"
-    },
     {
       "id": "tonamel-H15VJ",
       "game": "lorcana",
@@ -42,6 +22,26 @@
       "full": false,
       "cancelled": false,
       "source_url": "https://tonamel.com/competition/H15VJ"
+    },
+    {
+      "id": "tonamel-H6Wpg",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "在宅Dオタのすん presents. 『カミスキーズ・ロルカナ・フェスティバル』",
+      "date": "2026-12-27",
+      "start_time": "11:00",
+      "end_time": "",
+      "shop_name": "大阪市立中央会館",
+      "prefecture": "大阪府",
+      "address": "大阪市中央区島之内2-12-31",
+      "capacity": 64,
+      "entrant_count": 7,
+      "entry_fee": "1500円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/H6Wpg"
     }
   ]
 }
