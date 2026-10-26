@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-10-26T05:18:54.919043+09:00",
+  "updated_at": "2026-10-27T05:27:06.902939+09:00",
   "events": [
     {
       "id": "tonamel-szccZ",
@@ -15,7 +15,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市浪速区難波中２丁目 ５−１２",
       "capacity": 32,
-      "entrant_count": 3,
+      "entrant_count": 6,
       "entry_fee": "500円",
       "regulation": null,
       "distance": null,
@@ -35,7 +35,7 @@
       "prefecture": "大阪府",
       "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
       "capacity": 8,
-      "entrant_count": 3,
+      "entrant_count": 4,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
