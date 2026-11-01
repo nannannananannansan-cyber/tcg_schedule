@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-11-01T05:27:50.703743+09:00",
+  "updated_at": "2026-11-02T05:28:40.478830+09:00",
   "events": [
     {
       "id": "tonamel-TAGeV",
@@ -15,13 +15,33 @@
       "prefecture": "大阪府",
       "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
       "capacity": 8,
-      "entrant_count": 5,
+      "entrant_count": 6,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
       "full": false,
       "cancelled": false,
       "source_url": "https://tonamel.com/competition/TAGeV"
+    },
+    {
+      "id": "tonamel-YexDm",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "セットチャンピオンシップ(ハイペリアシティシーズン) 11/07(土)14:00~ ",
+      "date": "2026-11-07",
+      "start_time": "14:00",
+      "end_time": "",
+      "shop_name": "ｶｰﾄﾞｼｮｯﾌﾟ黄鶏屋",
+      "prefecture": "大阪府",
+      "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
+      "capacity": 24,
+      "entrant_count": 2,
+      "entry_fee": "500円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/YexDm"
     },
     {
       "id": "tonamel-H15VJ",
@@ -55,7 +75,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区島之内2-12-31",
       "capacity": 64,
-      "entrant_count": 9,
+      "entrant_count": 10,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
