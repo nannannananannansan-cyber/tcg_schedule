@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T23:01:21.516910+09:00",
+  "updated_at": "2026-11-03T14:11:22.402258+00:00",
   "event_count": 2578,
   "events": [
     {
@@ -6601,7 +6601,7 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂１丁目２−１ A+FUSEビル ３階 ",
       "capacity": 80,
-      "entrant_count": 96,
+      "entrant_count": 97,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -20469,7 +20469,7 @@
       "prefecture": "大阪府",
       "address": "大阪府大阪市中央区西心斎橋2-10-24 ",
       "capacity": 100,
-      "entrant_count": 57,
+      "entrant_count": 60,
       "entry_fee": "1000円",
       "regulation": null,
       "distance": null,
@@ -42538,7 +42538,7 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂1丁目2‐1",
       "capacity": 38,
-      "entrant_count": 6,
+      "entrant_count": 7,
       "entry_fee": "6000円",
       "regulation": null,
       "distance": null,
