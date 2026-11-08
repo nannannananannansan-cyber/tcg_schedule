@@ -1,127 +1,8 @@
 {
-  "updated_at": "2026-11-07T23:30:41.609544+00:00",
+  "updated_at": "2026-11-08T23:29:56.763326+00:00",
   "events": [
     {
-      "id": "lorcana-2026-11-07-0",
-      "game": "lorcana",
-      "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "13:00",
-      "end_time": null,
-      "shop_name": "TSUTAYAリノアス八尾店",
-      "prefecture": "大阪府",
-      "address": "大阪府八尾市光町2-60リノアス1F",
-      "capacity": 32,
-      "entry_fee": "無料",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-1",
-      "game": "lorcana",
-      "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "14:00",
-      "end_time": null,
-      "shop_name": "トレカショップ竜のしっぽ 梅田NU茶屋町店",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市北区茶屋町10番12号NU茶屋町4F",
-      "capacity": 32,
-      "entry_fee": "1000円(現金のみ)",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-2",
-      "game": "lorcana",
-      "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "14:00",
-      "end_time": null,
-      "shop_name": "カードショップ黄鶏屋",
-      "prefecture": "大阪府",
-      "address": "大阪府堺市堺区三国ヶ丘御幸通18-7法業第八堺東ビル2F",
-      "capacity": 24,
-      "entry_fee": "1000円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-3",
-      "game": "lorcana",
-      "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "15:30",
-      "end_time": null,
-      "shop_name": "BAR UNKNOWN trading card shop",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市浪速区難波中2-7-7ナンバFKビル2F",
-      "capacity": 20,
-      "entry_fee": "1500円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-4",
-      "game": "lorcana",
-      "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "16:00",
-      "end_time": null,
-      "shop_name": "トレカGO!GO!",
-      "prefecture": "大阪府",
-      "address": "大阪府茨木市駅前1丁目3番9号生田ビル301号",
-      "capacity": 32,
-      "entry_fee": "1000円",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-5",
-      "game": "lorcana",
-      "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "17:00",
-      "end_time": null,
-      "shop_name": "トレカショップ竜のしっぽ 布施店",
-      "prefecture": "大阪府",
-      "address": "大阪府東大阪市長堂1丁目2-1A+FUSEビル 3階",
-      "capacity": 8,
-      "entry_fee": "無料",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-07-6",
-      "game": "lorcana",
-      "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
-      "date": "2026-11-07",
-      "start_time": "18:30",
-      "end_time": null,
-      "shop_name": "トレカショップ竜のしっぽ 梅田NU茶屋町店",
-      "prefecture": "大阪府",
-      "address": "大阪府大阪市北区茶屋町10番12号NU茶屋町4F",
-      "capacity": 8,
-      "entry_fee": "無料",
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false
-    },
-    {
-      "id": "lorcana-2026-11-08-7",
+      "id": "lorcana-2026-11-08-0",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -138,7 +19,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-8",
+      "id": "lorcana-2026-11-08-1",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -155,7 +36,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-9",
+      "id": "lorcana-2026-11-08-2",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -172,7 +53,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-10",
+      "id": "lorcana-2026-11-08-3",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -189,7 +70,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-11",
+      "id": "lorcana-2026-11-08-4",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -206,7 +87,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-12",
+      "id": "lorcana-2026-11-08-5",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -223,7 +104,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-08-13",
+      "id": "lorcana-2026-11-08-6",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-08",
@@ -240,7 +121,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-09-14",
+      "id": "lorcana-2026-11-09-7",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-09",
@@ -257,7 +138,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-09-15",
+      "id": "lorcana-2026-11-09-8",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-09",
@@ -274,7 +155,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-09-16",
+      "id": "lorcana-2026-11-09-9",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-09",
@@ -291,7 +172,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-10-17",
+      "id": "lorcana-2026-11-10-10",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-10",
@@ -308,7 +189,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-10-18",
+      "id": "lorcana-2026-11-10-11",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-10",
@@ -325,7 +206,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-10-19",
+      "id": "lorcana-2026-11-10-12",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-10",
@@ -342,7 +223,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-11-20",
+      "id": "lorcana-2026-11-11-13",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-11",
@@ -359,7 +240,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-12-21",
+      "id": "lorcana-2026-11-12-14",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-12",
@@ -376,7 +257,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-12-22",
+      "id": "lorcana-2026-11-12-15",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-12",
@@ -393,7 +274,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-12-23",
+      "id": "lorcana-2026-11-12-16",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-12",
@@ -410,7 +291,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-12-24",
+      "id": "lorcana-2026-11-12-17",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-12",
@@ -427,7 +308,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-25",
+      "id": "lorcana-2026-11-13-18",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-13",
@@ -444,7 +325,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-26",
+      "id": "lorcana-2026-11-13-19",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -461,7 +342,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-27",
+      "id": "lorcana-2026-11-13-20",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -478,7 +359,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-28",
+      "id": "lorcana-2026-11-13-21",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -495,7 +376,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-29",
+      "id": "lorcana-2026-11-13-22",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -512,7 +393,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-30",
+      "id": "lorcana-2026-11-13-23",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -529,7 +410,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-31",
+      "id": "lorcana-2026-11-13-24",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -546,7 +427,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-32",
+      "id": "lorcana-2026-11-13-25",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-13",
@@ -563,7 +444,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-13-33",
+      "id": "lorcana-2026-11-13-26",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-13",
@@ -580,7 +461,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-14-34",
+      "id": "lorcana-2026-11-14-27",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-14",
@@ -597,7 +478,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-14-35",
+      "id": "lorcana-2026-11-14-28",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-14",
@@ -614,7 +495,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-15-36",
+      "id": "lorcana-2026-11-15-29",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-15",
@@ -631,7 +512,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-15-37",
+      "id": "lorcana-2026-11-15-30",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-15",
@@ -648,7 +529,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-16-38",
+      "id": "lorcana-2026-11-16-31",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-16",
@@ -665,7 +546,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-16-39",
+      "id": "lorcana-2026-11-16-32",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-16",
@@ -682,7 +563,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-16-40",
+      "id": "lorcana-2026-11-16-33",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-16",
@@ -699,7 +580,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-16-41",
+      "id": "lorcana-2026-11-16-34",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-16",
@@ -716,7 +597,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-16-42",
+      "id": "lorcana-2026-11-16-35",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-16",
@@ -733,7 +614,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-17-43",
+      "id": "lorcana-2026-11-17-36",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-17",
@@ -750,7 +631,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-17-44",
+      "id": "lorcana-2026-11-17-37",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-17",
@@ -767,7 +648,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-18-45",
+      "id": "lorcana-2026-11-18-38",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-18",
@@ -784,7 +665,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-18-46",
+      "id": "lorcana-2026-11-18-39",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-18",
@@ -801,7 +682,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-18-47",
+      "id": "lorcana-2026-11-18-40",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-18",
@@ -818,7 +699,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-19-48",
+      "id": "lorcana-2026-11-19-41",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-19",
@@ -835,7 +716,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-19-49",
+      "id": "lorcana-2026-11-19-42",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-19",
@@ -852,7 +733,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-20-50",
+      "id": "lorcana-2026-11-20-43",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-20",
@@ -869,7 +750,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-20-51",
+      "id": "lorcana-2026-11-20-44",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-20",
@@ -886,7 +767,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-20-52",
+      "id": "lorcana-2026-11-20-45",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-20",
@@ -903,7 +784,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-20-53",
+      "id": "lorcana-2026-11-20-46",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-20",
@@ -920,7 +801,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-20-54",
+      "id": "lorcana-2026-11-20-47",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-20",
@@ -937,7 +818,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-21-55",
+      "id": "lorcana-2026-11-21-48",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-21",
@@ -954,7 +835,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-22-56",
+      "id": "lorcana-2026-11-22-49",
       "game": "lorcana",
       "event_name": "セットチャンピオンシップ（ハイペリアシティ シーズン）",
       "date": "2026-11-22",
@@ -971,7 +852,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-22-57",
+      "id": "lorcana-2026-11-22-50",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-22",
@@ -988,7 +869,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-22-58",
+      "id": "lorcana-2026-11-22-51",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-22",
@@ -1005,7 +886,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-23-59",
+      "id": "lorcana-2026-11-23-52",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-23",
@@ -1022,7 +903,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-23-60",
+      "id": "lorcana-2026-11-23-53",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-23",
@@ -1039,7 +920,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-23-61",
+      "id": "lorcana-2026-11-23-54",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-23",
@@ -1056,7 +937,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-23-62",
+      "id": "lorcana-2026-11-23-55",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-23",
@@ -1073,7 +954,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-23-63",
+      "id": "lorcana-2026-11-23-56",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-23",
@@ -1090,7 +971,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-24-64",
+      "id": "lorcana-2026-11-24-57",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-24",
@@ -1107,7 +988,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-24-65",
+      "id": "lorcana-2026-11-24-58",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-24",
@@ -1124,7 +1005,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-24-66",
+      "id": "lorcana-2026-11-24-59",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-24",
@@ -1141,7 +1022,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-24-67",
+      "id": "lorcana-2026-11-24-60",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-24",
@@ -1158,7 +1039,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-25-68",
+      "id": "lorcana-2026-11-25-61",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-25",
@@ -1175,7 +1056,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-26-69",
+      "id": "lorcana-2026-11-26-62",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-26",
@@ -1192,7 +1073,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-26-70",
+      "id": "lorcana-2026-11-26-63",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-26",
@@ -1209,7 +1090,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-27-71",
+      "id": "lorcana-2026-11-27-64",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-27",
@@ -1226,7 +1107,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-27-72",
+      "id": "lorcana-2026-11-27-65",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-27",
@@ -1243,7 +1124,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-27-73",
+      "id": "lorcana-2026-11-27-66",
       "game": "lorcana",
       "event_name": "ロルカナ交流会（ハイペリアシティ シーズン）",
       "date": "2026-11-27",
@@ -1260,7 +1141,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-29-74",
+      "id": "lorcana-2026-11-29-67",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-29",
@@ -1277,7 +1158,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-29-75",
+      "id": "lorcana-2026-11-29-68",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-29",
@@ -1294,7 +1175,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-29-76",
+      "id": "lorcana-2026-11-29-69",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-29",
@@ -1311,7 +1192,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-30-77",
+      "id": "lorcana-2026-11-30-70",
       "game": "lorcana",
       "event_name": "特別ルール大会（ハイペリアシティ シーズン）",
       "date": "2026-11-30",
@@ -1328,7 +1209,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-30-78",
+      "id": "lorcana-2026-11-30-71",
       "game": "lorcana",
       "event_name": "ロルカナ ショップ大会（ハイペリアシティ シーズン）",
       "date": "2026-11-30",
@@ -1345,7 +1226,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-30-79",
+      "id": "lorcana-2026-11-30-72",
       "game": "lorcana",
       "event_name": "パックラッシュパーティー（ハイペリアシティ シーズン前半）",
       "date": "2026-11-30",
@@ -1362,7 +1243,7 @@
       "cancelled": false
     },
     {
-      "id": "lorcana-2026-11-30-80",
+      "id": "lorcana-2026-11-30-73",
       "game": "lorcana",
       "event_name": "コンセプトデッキパーティー（ハイペリアシティ シーズン）",
       "date": "2026-11-30",
