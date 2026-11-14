@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-11-13T09:57:24.287506+09:00",
+  "updated_at": "2026-11-14T09:47:40.097386+09:00",
   "events": [
     {
       "id": "tonamel-3KUjv",
@@ -24,6 +24,26 @@
       "source_url": "https://tonamel.com/competition/3KUjv"
     },
     {
+      "id": "tonamel-dgSCo",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "【竜のしっぽ布施店】ロルカナ  布施ロルしっぽCS~3on3~ ",
+      "date": "2026-12-13",
+      "start_time": "12:00",
+      "end_time": "",
+      "shop_name": "竜のしっぽ布施店",
+      "prefecture": "大阪府",
+      "address": "大阪府東大阪市長堂１丁目２−１ A+FUSEビル ３階 ",
+      "capacity": 36,
+      "entrant_count": 7,
+      "entry_fee": "6000円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/dgSCo"
+    },
+    {
       "id": "tonamel-H6Wpg",
       "game": "lorcana",
       "source": "tonamel",
@@ -35,7 +55,7 @@
       "prefecture": "大阪府",
       "address": "大阪市中央区島之内2-12-31",
       "capacity": 64,
-      "entrant_count": 18,
+      "entrant_count": 19,
       "entry_fee": "1500円",
       "regulation": null,
       "distance": null,
