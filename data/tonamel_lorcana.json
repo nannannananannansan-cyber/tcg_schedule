@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-11-16T08:51:59.439431+09:00",
+  "updated_at": "2026-11-17T11:49:33.541116+09:00",
   "events": [
     {
       "id": "tonamel-omEnY",
@@ -22,6 +22,26 @@
       "full": false,
       "cancelled": false,
       "source_url": "https://tonamel.com/competition/omEnY"
+    },
+    {
+      "id": "tonamel-96l0D",
+      "game": "lorcana",
+      "source": "tonamel",
+      "event_name": "パックラッシュパーティ(ハイペリアシティシーズン) 11/23(月)19:00~ ",
+      "date": "2026-11-23",
+      "start_time": "19:00",
+      "end_time": "",
+      "shop_name": "ｶｰﾄﾞｼｮｯﾌﾟ黄鶏屋",
+      "prefecture": "大阪府",
+      "address": "大阪府堺市堺区三国ヶ丘御幸通18-7 法業第八堺東ビル2F",
+      "capacity": 8,
+      "entrant_count": 1,
+      "entry_fee": "1000円",
+      "regulation": null,
+      "distance": null,
+      "full": false,
+      "cancelled": false,
+      "source_url": "https://tonamel.com/competition/96l0D"
     },
     {
       "id": "tonamel-653js",
@@ -75,7 +95,7 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂１丁目２−１ A+FUSEビル ３階 ",
       "capacity": 36,
-      "entrant_count": 20,
+      "entrant_count": 21,
       "entry_fee": "6000円",
       "regulation": null,
       "distance": null,
