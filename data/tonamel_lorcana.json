@@ -1,7 +1,7 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-11-18T11:14:29.073482+09:00",
+  "updated_at": "2026-11-19T10:47:16.874906+09:00",
   "events": [
     {
       "id": "tonamel-omEnY",
@@ -75,7 +75,7 @@
       "prefecture": "大阪府",
       "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３２ TRN心斎橋 3階",
       "capacity": 32,
-      "entrant_count": 5,
+      "entrant_count": 7,
       "entry_fee": null,
       "regulation": null,
       "distance": null,
@@ -95,7 +95,7 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂１丁目２−１ A+FUSEビル ３階",
       "capacity": 128,
-      "entrant_count": 46,
+      "entrant_count": 63,
       "entry_fee": "2000円",
       "regulation": null,
       "distance": null,
@@ -115,11 +115,11 @@
       "prefecture": "大阪府",
       "address": "大阪府東大阪市長堂１丁目２−１ A+FUSEビル ３階 ",
       "capacity": 36,
-      "entrant_count": 31,
+      "entrant_count": 38,
       "entry_fee": "6000円",
       "regulation": null,
       "distance": null,
-      "full": false,
+      "full": true,
       "cancelled": false,
       "source_url": "https://tonamel.com/competition/dgSCo"
     },
