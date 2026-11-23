@@ -1,28 +1,8 @@
 {
   "source": "tonamel",
   "game": "lorcana",
-  "updated_at": "2026-11-22T09:10:26.704022+09:00",
+  "updated_at": "2026-11-23T09:38:31.902066+09:00",
   "events": [
-    {
-      "id": "tonamel-omEnY",
-      "game": "lorcana",
-      "source": "tonamel",
-      "event_name": "【11/22】 セットチャンピオンシップ【ドラゴンスター日本橋3号店】",
-      "date": "2026-11-22",
-      "start_time": "14:30",
-      "end_time": "",
-      "shop_name": "ドラゴンスター日本橋３号店",
-      "prefecture": "大阪府",
-      "address": "大阪府 大阪市浪速区敷津東２丁目１−５",
-      "capacity": 64,
-      "entrant_count": 4,
-      "entry_fee": null,
-      "regulation": null,
-      "distance": null,
-      "full": false,
-      "cancelled": false,
-      "source_url": "https://tonamel.com/competition/omEnY"
-    },
     {
       "id": "tonamel-96l0D",
       "game": "lorcana",
